@@ -5,7 +5,8 @@ Run from the top folder of the repository: python scripts/fetch_zotero.py
 Settings come from environment variables (set in GitHub under Settings -> Secrets and variables):
   ZOTERO_LIBRARY_ID      e.g. 4530732
   ZOTERO_LIBRARY_TYPE    "group" or "user"
-  ZOTERO_COLLECTION_KEY  optional, e.g. HG37SSWU (leave empty to read the whole library)
+  ZOTERO_COLLECTION_KEY  optional, e.g. HG37SSWU; its subcollections are included too
+                         (leave empty to read the whole library)
   ZOTERO_API_KEY         optional for public libraries, needed for private ones
 
 Writes two files:
@@ -27,26 +28,49 @@ API_KEY = os.environ.get("ZOTERO_API_KEY", "")
 if not LIBRARY_ID:
     sys.exit("ZOTERO_LIBRARY_ID is not set")
 
-# "groups/4530732/collections/HG37SSWU/items/top" = the items in that collection,
-# without their attachments and notes.
-url = f"https://api.zotero.org/{LIBRARY_TYPE}s/{LIBRARY_ID}"
-if COLLECTION_KEY:
-    url += f"/collections/{COLLECTION_KEY}"
-url += "/items/top"
+base = f"https://api.zotero.org/{LIBRARY_TYPE}s/{LIBRARY_ID}"
 headers = {"Zotero-API-Version": "3"}
 if API_KEY:
     headers["Zotero-API-Key"] = API_KEY
 
-# Zotero returns at most 100 items per request, so ask page by page.
-items = []
-while True:
-    response = requests.get(url, headers=headers, timeout=60,
-                            params={"format": "json", "limit": 100, "start": len(items)})
+
+def get_all(url):
+    """Zotero returns at most 100 results per request, so ask page by page."""
+    results = []
+    while True:
+        response = requests.get(url, headers=headers, timeout=60,
+                                params={"format": "json", "limit": 100, "start": len(results)})
+        response.raise_for_status()
+        page = response.json()
+        results.extend(page)
+        if len(page) < 100:
+            return results
+
+
+def collection_and_subcollections(key, name, depth=0):
+    """Return [(key, name, depth)] for this collection and every subcollection below it."""
+    found = [(key, name, depth)]
+    for sub in get_all(f"{base}/collections/{key}/collections"):
+        found += collection_and_subcollections(sub["key"], sub["data"]["name"], depth + 1)
+    return found
+
+
+items = {}  # keyed by Zotero item key, so an item filed in several folders counts once
+if COLLECTION_KEY:
+    response = requests.get(f"{base}/collections/{COLLECTION_KEY}", headers=headers, timeout=60)
     response.raise_for_status()
-    page = response.json()
-    items.extend(page)
-    if len(page) < 100:
-        break
+    top_name = response.json()["data"]["name"]
+    print("Collections read:")
+    for key, name, depth in collection_and_subcollections(COLLECTION_KEY, top_name):
+        # "items/top" = the items in that folder, without their attachments and notes
+        folder_items = get_all(f"{base}/collections/{key}/items/top")
+        print(f"  {'  ' * depth}{name}: {len(folder_items)} items")
+        for item in folder_items:
+            items[item["key"]] = item
+else:
+    for item in get_all(f"{base}/items/top"):
+        items[item["key"]] = item
+items = list(items.values())
 
 DOI_PATTERN = re.compile(r"10\.\d{4,9}/\S+", re.IGNORECASE)
 
@@ -88,6 +112,6 @@ with open("data/zotero_missing_doi.csv", "w", newline="", encoding="utf-8") as f
     writer.writeheader()
     writer.writerows(missing)
 
-print(f"{len(items)} items in Zotero: {len(dois)} with a DOI, {len(missing)} without")
+print(f"{len(items)} items in Zotero (after removing items filed in several folders): {len(dois)} with a DOI, {len(missing)} without")
 for m in missing:
     print(f"  no DOI: {m['title'][:90]}")
