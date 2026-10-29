@@ -1,4 +1,4 @@
-# ODISSEi citations tracker
+# ODISSEi citations tracker (PROTOTYPE)
 
 This repository tracks publications linked to [ODISSEi](https://odissei-data.nl) and the citations they receive. It reads the list of publications from the ODISSEi Zotero group library, looks up their citation counts on [OpenAlex](https://openalex.org), and publishes the results as a dashboard:
 
