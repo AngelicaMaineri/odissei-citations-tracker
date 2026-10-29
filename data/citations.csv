@@ -123,7 +123,7 @@ doi,status,openalex_id,title,year,cited_by_count
 10.1016/j.socscimed.2024.117502,ok,W4404322069,‘No manner of hurt was found upon him’. The role of religiousness in the mental health effect of job insecurity,2024,3
 10.5553/rdw/138064242023044001004,ok,W4384068344,Recht spreken én schrijven,2023,2
 10.5553/jv/016758502025051004006,ok,W7116757421,DJI en de wetenschap: een duurzame verbintenis met wrijving,2025,0
-10.5117/tva2022.3.001.lipp,error: 502 Server Error: Bad Gateway for url: https://api.openalex.org/works/https://doi.org/10.5117/tva2022.3.001.lipp?mailto=angelica%40odissei-data.nl,,,,
+10.5117/tva2022.3.001.lipp,ok,W4296863896,Benut het talent van alle vrouwen op de Nederlandse arbeidsmarkt,2022,3
 10.1016/j.actpsy.2023.103847,ok,W4318761772,"The General Factor of Personality (GFP) is associated with higher salary, having a leadership position, and working in a social job",2023,7
 10.5553/bk/092733872022031001009,ok,W4220672326,Wees eerlijk over terugtredende overheid,2022,0
 10.1080/07036337.2024.2352765,ok,W4398170663,Filling the EU information deficit mitigates negative EU attitudes among the least knowledgeable. Evidence from a population-based survey experiment,2024,5
