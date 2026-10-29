@@ -1,4 +1,10 @@
 doi,status,openalex_id,title,year,cited_by_count
+10.48550/ARXIV.2502.20945,ok,W6948171471,Metadata-driven table union search: leveraging semantics for restricted access data integration,2026,1
+10.5281/ZENODO.10286752,ok,W4393472346,Aligning Data Management Plans with Community Standards using FAIR Implementation Profiles,2023,1
+10.1038/s41598-023-47556-0,ok,W4389938531,Disease avoidance threatens social cohesion in a large-scale social networking experiment,2023,7
+10.3233/SW-2012-0081,ok,W1494637579,TheSoz: A SKOS representation of the thesaurus for the social sciences,2013,49
+10.1016/j.alcr.2022.100490,ok,W4281805898,The wage penalty for informal caregivers from a life course perspective,2022,16
+10.5281/zenodo.20758265,ok,W7165135745,ilaluna/LIVING-SICCS,2026,0
 10.21203/rs.3.rs-10682202/v1,ok,W7221776549,Occupational Underutilization and the Social Concentration of Political Disaffection,2026,0
 10.1016/j.cosrev.2023.100571,ok,W4379743515,A survey of the European Open Science Cloud services for expanding the capacity and capabilities of multidisciplinary scientific applications,2023,12
 10.2139/ssrn.6837280,ok,W7171625532,How is Voter Movement Among Parties Structured? A Gravity Model of Voter Flow,2026,0
@@ -529,3 +535,160 @@ doi,status,openalex_id,title,year,cited_by_count
 10.21203/rs.3.rs-6999017/v1,ok,W4416848638,Physical sporting activity impact on long-term BMI trajectories in Dutch adults: a longitudinal observational study,2025,0
 10.1787/678055dd-en,ok,W4389496224,Pensions at a Glance 2023,2023,275
 10.1177/0143831X251345707,ok,W4411441860,The political lessons of precarious work: How profiles of perceived income inadequacy and job insecurity relate to union membership and political trust,2025,5
+10.26481/dis.20261030ck,ok,W7222268574,Analytical mass spectrometry-based approaches for biofilm-associated infections and orthopaedic applications,2026,0
+10.26481/dis.20261026ks,ok,W7221902554,Interfacing with 3D heritage,2026,0
+10.1515/bfp-2026-0030,ok,W7211912215,Lost in Research Infrastructures – Reflections on European Research Infrastructures in the Humanities,2026,0
+10.48550/arXiv.2608.10946,ok,W7202286414,MARS: A framework for modelling register-based social networks,2026,0
+10.5334/johd.571,ok,W7165578796,"Dataset Context(ualisation) in Documentation: Best Practices, Recommendations and Open Questions",2026,0
+10.48550/arXiv.2605.28481,ok,W7162653039,"Co-creation of AI technology, empowering curators of cultural heritage information and guarding research commons",2026,0
+10.5281/ZENODO.16411471,ok,W6968732952,"Book of Abstracts, DARIAH AE 2025 | The Past",2025,0
+10.5281/zenodo.18152866,ok,W7118551394,Utility of Croissant metadata in the ODISSEI Portal: An assessment of the current implementation,2026,0
+10.5281/zenodo.17136092,ok,W7081970024,Coordinating the European Research Area: the role of ERICs and national stakeholders - strengthening the Social Sciences and Humanities,2025,0
+10.48550/ARXIV.2505.11633,ok,W4417299781,Chatting with Papers: A Hybrid Approach Using LLMs and Knowledge Graphs,2025,1
+10.5281/ZENODO.15261773,ok,W6911944104,Comparing FAIR Assessment Tools and their Alignment with FAIR Implementation Profiles using Digital Humanities Datasets,2025,0
+10.5281/zenodo.15528339,ok,W6931157624,SSHOC-NL Socio-Economic History Community FAIR Implementation Report,2025,0
+10.48550/arXiv.2504.05976,ok,W4411116625,A Knowledge Base for Arts and Inclusion - The Dataverse Data Archival Platform as a Knowledge Base Management System Enabling Multimodal Accessibility,2025,0
+10.1017/thg.2026.10094,ok,W7214933576,Population-Level Data Linkages in Worldwide Twin Research Resources,2026,0
+10.1016/j.ssaho.2026.103569,ok,W4408224091,Public responses to jihadist terrorism on social media,2026,0
+10.21203/rs.3.rs-10509723/v1,ok,W7171714705,Metadata-Based Methods to Generate Synthetic Health Data: A Scoping Review,2026,0
+10.1093/sp/jxag038,ok,W7169790555,Decentralization and Re-familialization in Informal Care: Adaptability and Inequalities in Social Care Policies in the Netherlands,2026,0
+10.1553/p-fzmf-d932,ok,W7164198974,Quantifying the postponement in the age at first attempt to conceive and its consequences,2026,0
+10.1017/thg.2026.10070,ok,W7162104065,Record Linkage as a Tool for Expanding Research Opportunities: Insights from the Netherlands Twin Register and National Health and Population Data in the Netherlands,2026,0
+10.31235/osf.io/zydm5_v1,ok,W7157883231,Assessing the Quality of Linked Data,2026,0
+10.48550/arXiv.2604.09638,ok,W7154354734,A Methodological Guide on Using Large Language Models for Reproducible Text Annotation in the Social Sciences and Humanities with Python and R,2026,0
+10.1177/14651165261424664,ok,W7135075678,Filtering out Euroskepticism: Media influence and interpersonal communication in an agent-based model of Brexit opinion dynamics,2026,0
+10.1016/j.rssm.2026.101138,ok,W7130819081,The role of network isolation on language proficiency of children of migrants,2026,1
+10.1007/s11577-026-01050-3,ok,W7130509332,Causal Inferences from Digital Behavioral Data,2026,5
+10.1007/s00127-026-03052-0,ok,W7128595909,Migration background and specialized mental health care utilization in young adults: a register-based study in the Netherlands,2026,1
+10.1177/00420980251412620,ok,W7125585523,Unequal rewards to decarbonisation: A diff-in-diffs approach to measuring housing costs across tenures,2026,0
+10.1093/esr/jcaf005,ok,W4413753198,The Generations and Gender Survey: a cross-national longitudinal resource,2025,4
+10.1007/978-3-031-93064-5_13,ok,W4411116779,Turning Paintings into Multimodal Digital Objects,2025,2
+10.5281/zenodo.14337495,ok,W6893060974,"Building a historical disease database with newspapers: Measuring the prevalence of infectious diseases across time and space in the Netherlands, 1830-1940",2024,0
+10.1186/s13075-025-03575-y,ok,W4410546999,"Physical activity in relation to health status, quality of life and compliance with World Health Organization recommendations in patients with axial spondyloarthritis",2025,6
+10.48550/arXiv.2502.19360,ok,W4416045137,Sustaining Knowledge Infrastructures: Asking the Right Questions and Listening for Answers,2025,1
+10.1007/978-3-031-81974-2_14,ok,W4407933798,Aligning Data Management Plans with Community Standards Using FAIR Implementation Profiles,2025,0
+10.5281/zenodo.6524821,ok,W4229042134,Assessing FAIR Data Support Needs Amongst Data Supporters in the ODISSEI Community,2022,0
+10.48550/arXiv.2609.01194,ok,W7206186786,Births are difficult to predict even with rich survey and full-population register data,2026,0
+10.23889/ijpds.v11i5.3745,ok,W7167498397,Towards FAIR infrastructures of administrative microdata: the Netherlands Integrated Data Infrastructure of Inequality in Organizations (NIDIO),2026,0
+10.23889/ijpds.v11i5.3650,ok,W7167516823,Reproducibility and robustness of research conducted with administrative data: lessons learnt from the CBS Replication Games,2026,0
+10.23889/ijpds.v11i5.3581,ok,W7167496132,ODISSEI: the Dutch National Infrastructure for Social Science,2026,0
+10.1177/19485506251414824,ok,W7128478160,Socioeconomic and Immigration Disparities in Ostracism: A Study of Statistical Outliers,2026,0
+10.1080/13501763.2025.2596122,ok,W4416895918,A sentence-based approach to measuring EU regulatory activity,2025,0
+10.48550/arXiv.2509.22136,ok,W4416830752,"Persistent Gaps, Partial Gains: A Population-Level Study of COVID-19 Learning Inequalities in the Netherlands",2025,1
+10.3368/jhr.0424-13521R2,ok,W4414143052,Exposure to Natives and Cultural Assimilation,2025,0
+10.48550/arXiv.2508.21236,ok,W4417408837,Population-scale network embeddings expose educational divides in network structure related to right-wing populist voting,2026,0
+10.48550/arXiv.2506.22993,ok,W4416510067,Beyond Parents? Prediction Gaps in University Completion Using Population-Scale Networks and Flexible Machine Learning,2025,0
+10.2218/ijdc.v19i1.1048,ok,W4409736878,Improving the Transparency of Data Access Conditions in the SSH Domain,2025,0
+10.1162/dint_a_00244,ok,W4391033846,Optimizing ASReview Simulations: A generic Multiprocessing Solution for ‘Light-data’ and ‘Heavy-data’ Users,2024,7
+10.1080/00343404.2024.2442500,ok,W4406991765,"The effect of unemployment, housing tenure and commuting distance on interregional migration in the Netherlands",2025,2
+10.48550/arXiv.2502.02321,ok,W4407186300,Fostering Data Communities -- perspective from a Data Archive Service Provider,2025,0
+10.48550/arXiv.2501.05590,ok,W4406317075,Negative Ties Highlight Hidden Extremes in Social Media Polarization,2025,0
+10.5281/zenodo.14507120,ok,W6968006386,The Next Generation of Data Management with Artificial Intelligence,2024,0
+10.5281/zenodo.14169625,ok,W6892960831,Unlocking Potential with the Dataverse Data Platform,2024,0
+10.1177/05390184241297742,ok,W4404859489,The potential of benchmark challenges in the social sciences,2024,3
+10.1038/s41598-024-82646-7,ok,W4405855339,Assessing COVID-19 transmission through school and family networks using population-level registry data from the Netherlands,2024,6
+10.48550/arXiv.2411.12451,ok,W4404573906,Empirical Privacy Evaluations of Generative and Predictive Machine Learning Models -- A review and challenges for practice,2024,0
+10.26481/dis.20241003lv,ok,W4403098091,"Healthy schools, flourishing students",2024,0
+10.5281/zenodo.10694246,ok,W6892497275,"Ontologies for the social sciences: what they are, and why we need them",2024,0
+10.3390/ijerph21081073,ok,W4401613150,"School Health Promotion, the Body Mass Index z-Score, and Psychosocial Health in Primary Schools of the Netherlands",2024,1
+10.1186/s12889-024-18546-2,ok,W4395007633,School health promotion and fruit and vegetable consumption in secondary schools: a repeated cross-sectional multilevel study,2024,4
+10.1007/s00148-024-01029-4,ok,W4398269967,"Less for more? Cuts to child benefits, family adjustments, and long-run child outcomes in larger families",2024,4
+10.5281/ZENODO.10565915,ok,W6948832894,AMdEX Reference Architecture – version 1.0.0,2024,4
+10.1111/imig.13252,ok,W4392662589,Size and ethnic homogeneity of extended social networks in the Netherlands: Differences between migrant groups and migrant generations,2024,9
+10.1515/9783111135908-001,ok,W4387533420,"1 Social, health, and economic impacts of the COVID-19 pandemic and the epidemiological control measures",2023,3
+10.52825/cordi.v1i.393,ok,W4386546620,Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI),2023,0
+10.48550/arXiv.2402.00705,ok,W4394785467,Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer),2024,6
+10.1016/j.dib.2021.107327,ok,W3188179367,Online housing search dataset: Information flows of real estate platform users,2021,4
+10.1016/j.jbi.2023.104404,ok,W4379013731,Generating synthetic personal health data using conditional generative adversarial networks combining with differential privacy,2023,71
+10.1038/s41598-023-28597-x,ok,W4318353732,Realtime user ratings as a strategy for combatting misinformation: an experimental study,2023,7
+10.1057/s41269-022-00270-7,ok,W4309944577,Still going strong? The role of traditional media in the 2021 Dutch parliamentary elections,2022,6
+10.1093/esr/jcac054,ok,W4309905170,Are classrooms equalizers or amplifiers of inequality? A genetically informative investigation of educational performance,2022,9
+10.1038/s41467-022-32003-x,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,94
+10.1001/jamapsychiatry.2018.1581,ok,W2810905585,Association Between Population Density and Genetic Risk for Schizophrenia,2018,124
+10.1093/esr/jcac026,ok,W4293052867,A Whole Population Network and Its Application for the Social Sciences,2022,41
+10.21203/rs.3.rs-1967510/v1,ok,W4318353732,Realtime user ratings as a strategy for combatting misinformation: an experimental study,2023,7
+10.31235/osf.io/7jtb2,ok,W4255135847,Using a network of the whole population of the Netherlands to measure exposure to differing educational backgrounds,2021,0
+10.1016/j.ecoinf.2026.103983,ok,W7202044618,A FAIR-compliant metadata template for ecosystem digital twins,2026,0
+10.5281/zenodo.14622246,ok,W6893337331,ODISSEI and Semantic search with multilingually in data repositories,2024,1
+10.3233/SSW240006,ok,W4402810096,Zero-Shot Topic Classification of Column Headers: Leveraging LLMs for Metadata Enrichment,2024,4
+10.5281/zenodo.11044890,ok,W6892630944,Memo The ODISSEI Portal & The DANS Data Station Social Sciences and Humanities,2024,0
+10.1016/j.ssresearch.2024.103005,ok,W4393332986,Occupations and careers within organizations: Do organizations facilitate unequal wage growth?,2024,2
+10.1145/3587259.3627559,ok,W4389109157,Advancing data sharing and reusability for restricted access data on the Web: introducing the DataSet-Variable Ontology,2023,0
+10.5281/zenodo.6778444,ok,W6931294115,Transparent FAIRification of Restricted Access Data - ISWS 2022 Poster,2022,0
+10.7717/peerj-cs.1038,ok,W4285987923,Aligning restricted access data with FAIR: a systematic review,2022,16
+10.5281/zenodo.4302096,ok,W4317470070,The ODISSEI Portal: Linking Survey and Administrative Data,2020,2
+10.23889/ijpds.v9i5.2752,ok,W4402391073,ODISSEI Secure Supercomputer - a breakthrough in complex data linkage and applications.,2024,0
+10.1080/24694452.2017.1411245,ok,W2790419110,Multiscale Measures of Population: Within- and between-City Variation in Exposure to the Sociospatial Context,2018,73
+10.1017/thg.2021.18,ok,W3174926578,Safe Linkage of Cohort and Population-Based Register Data in a Genomewide Association Study on Health Care Expenditure,2021,10
+10.1111/lcrp.70070,ok,W7218707374,May we tighten the screws? An experiment on public acceptance of pressure during police interrogations,2026,1
+10.1007/s11205-026-03825-9,ok,W7139978580,"A Gendered Aftermath? Medium-Term Implications of COVID-19 for Affective Well-Being Among Mothers and Fathers in Finland, Germany, Italy, and the Netherlands",2026,1
+10.1080/13501763.2025.2611890,ok,W7128521777,Bias perceptions and trust in public service institutions,2026,0
+10.31234/osf.io/qwm8t_v1,ok,W4417528318,Emotional and Cognitive Empathy as Predictors of the Levels and Changes in Well-being and Health,2025,0
+10.13140/RG.2.2.16658.73929/1,ok,W6922586326,Validating the Survey Attitude Scale (SAS): Are Measurements Comparable Among Different Samples of Highly Qualified from German Higher Education?,2022,0
+10.6102/ZIS325_EXZ,ok,W6959016827,The Survey Attitude Scale,2022,1
+10.1007/978-3-030-47256-6_2,ok,W3093640439,Towards Survey Response Rate Theories That No Longer Pass Each Other Like Strangers in the Night,2020,41
+10.1086/297838,ok,W2082817694,Does the Payment of Incentives Create Expectation Effects?,1998,73
+10.1093/ijpor/edn006,ok,W2080424765,Measuring Public Opinions About Surveys,2008,45
+10.2478/jos-2020-0025,ok,W3046330016,Survey Nonresponse Trends and Fieldwork Effort in the 21st Century: Results of an International Study across Countries and Surveys,2020,119
+10.1186/s42409-019-0012-x,ok,W2992359154,"Development of an international survey attitude scale: measurement equivalence, reliability, and predictive validity",2019,74
+10.2478/jos-2020-0024,ok,W4229599487,Preface,2020,1
+10.1093/poq/nfi002,ok,W2154529659,Changes in Telephone Survey Nonresponse over the Past Quarter Century,2005,925
+10.13140/RG.2.2.14604.37768,ok,W7090139673,Identifying Robust Longitudinal Transactions Between Loneliness and the Big Five Personality Traits,2025,0
+10.1111/1468-4446.70020,ok,W4413030300,The Strength of Weak Ties? Understanding Educational Differences in Parents' Childcare Benefit Knowledge by Applying a Social Capital Approach,2025,1
+10.1332/23978821Y2023D000000021,ok,W4390317111,"Informal care trajectories: developments in care demands, intensity and complexity over the course of care episodes",2023,4
+10.1080/14616696.2023.2207108,ok,W4382763101,Strategies of informal caregivers to adapt paid work,2023,16
+10.1177/01461672221140355,ok,W4313226591,Greed: What Is It Good for?,2022,24
+10.1007/s12144-021-02467-z,ok,W3216800833,Further tests of the scarcity and luxury hypotheses in dispositional greed: Evidence from two large-scale Dutch and American samples,2021,12
+10.1177/09589287221080411,ok,W4220976477,Unequal but balanced: Highly educated mothers’ perceptions of work–life balance during the COVID-19 lockdown in Finland and the Netherlands,2022,26
+10.1371/journal.pone.0242249,ok,W3108244190,"‘Intelligent’ lockdown, intelligent effects? Results from a survey on gender (in)equality in paid work, the division of childcare and household work, and quality of life among parents in the Netherlands during the Covid-19 lockdown",2020,218
+10.1016/j.jval.2021.09.004,ok,W3206074437,Do People Favor Artificial Intelligence Over Physicians? A Survey Among the General Population and Their View on Artificial Intelligence in Medicine,2021,103
+10.1002/jts5.78,ok,W3163791243,Longing for the “good old days” of our country: National nostalgia as a new master‐frame of populist radical right parties,2021,79
+10.1111/bjso.12567,ok,W4291124612,Collective nostalgia: Triggers and consequences for collective action intentions,2022,46
+10.1007/s10433-022-00713-2,ok,W4283270538,Testing the informal care model: intrapersonal change in care provision intensity during the first lockdown of the COVID-19 pandemic,2022,13
+10.1016/j.jacr.2020.09.042,ok,W3093064335,Artificial Intelligence in Screening Mammography: A Population Survey of Women’s Preferences,2020,105
+10.1016/j.joep.2021.102459,ok,W3209217291,The prospective associations between financial scarcity and financial avoidance,2021,50
+10.5117/MEM2021.3.003.ANDR,ok,W3199375143,De invloed van de coronacrisis op de relatieve verdeling van zorg door moeders en vaders,2021,7
+10.1007/s12498-021-1360-z,ok,W3141180909,"Coronacrisis zorgt voor toegenomen werkdruk ouders, vooral bij moeders",2021,0
+10.1111/gwao.12725,ok,W3176379498,Are the gender gaps in informal caregiving intensity and burden closing due to the COVID‐19 pandemic? Evidence from the Netherlands,2021,31
+10.1177/00323217211049299,ok,W3203740134,Are Populists Politically Intolerant? Citizens’ Populist Attitudes and Tolerance of Various Political Antagonists,2021,29
+10.31235/osf.io/hf32q,ok,W3021418304,Inequality in homeschooling during the Corona crisis in the Netherlands. First results from the LISS Panel.,2020,193
+10.3990/1.9789036552196,ok,W3184939744,Bij- en omscholing en automatisering in Nederland: kansen en beperkingen,2021,1
+10.14765/zzf.dok-2297,ok,W3185791708,Nostalgia and Populism. An Empirical Psychological Perspective,2021,3
+10.31234/osf.io/8dq4x,ok,W3034949221,Lay beliefs in physiognomy explain overreliance on facial impressions,2019,9
+10.1016/j.envres.2026.124968,ok,W7163811393,"Heat stress and active travel, an eight-year national analysis in The Netherlands",2026,2
+10.48550/arXiv.2603.29059,ok,W7147501319,Embeddings of Nation-Level Social Networks,2026,0
+10.1177/08959048241309345,ok,W4407927564,Implementation Barriers and Program Effectiveness: A Quasi-Experimental Study on an Extended School Week,2025,1
+10.5463/thesis.847,ok,W4405356577,"Genetics, Human Capital Formation and the Intergenerational Transmission of Socioeconomic Status",2024,0
+10.1038/s44220-024-00245-x,ok,W4396583474,Educational attainment and psychiatric diagnoses: a national registry data and two-sample Mendelian randomization study,2024,12
+10.1177/00031224241252079,ok,W4398208176,Doing Genders: Partner’s Gender and Labor Market Behavior,2024,18
+10.3390/ijerph21060767,ok,W4399672946,Does School Health Promotion Have Additional Value for Educational Performance? A Repeated Cross-Sectional Multilevel Study,2024,1
+10.1038/s41539-024-00225-x,ok,W4392363819,Gene-environment interaction analysis of school quality and educational inequality,2024,7
+10.1101/2023.01.26.23285029,ok,W4387497095,EVALUATING THE CAUSAL RELATIONSHIP BETWEEN EDUCATIONAL ATTAINMENT AND MENTAL HEALTH,2023,29
+10.1016/j.scitotenv.2022.155276,ok,W4223985155,"Daily space-time activities, multiple environmental exposures, and anxiety symptoms: A cross-sectional mobile phone-based sensing study",2022,39
+10.1186/s12889-023-16123-7,ok,W4383217068,School health promotion and the consumption of water and sugar-sweetened beverages in secondary schools: a cross-sectional multilevel study,2023,5
+10.1016/j.lanepe.2023.100749,ok,W4387589418,Diversity in the pathway from medical student to specialist in the Netherlands: a retrospective cohort study,2023,26
+10.1371/journal.pone.0292805,ok,W4387612040,Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs,2023,16
+10.1111/fare.12922,ok,W4382022199,Financial contributions to stepchildren: The role of gender and postdivorce family structure,2023,5
+10.15195/v10.a14,ok,W4382195745,"Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood",2023,17
+10.26116/MW8B-NA04,ok,W6889785157,On the Behavioral Effects of Tax Policy,2023,0
+10.1016/j.annepidem.2023.04.012,ok,W4366813863,Examining neighborhood effects on mental health utilizing a novel two-stage modeling approach,2023,6
+10.1016/j.cities.2023.104194,ok,W4318946764,Age as effect modifier of the associations between the physical environment and adults' neighborhood walking in the Netherlands,2023,24
+10.1111/bjir.12718,ok,W4309758613,Flexible labour market and trade unions: Surprising career paths of Dutch sub‐Saharan Africans,2022,3
+10.1371/journal.pone.0261078,ok,W4200566895,Physical and psychological health at adolescence and home care use later in life,2021,1
+10.31235/osf.io/twjaq,ok,W4382195745,"Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood",2023,17
+10.1016/j.envint.2020.105982,ok,W3044331238,Greenery exposure and suicide mortality later in life: A longitudinal register-based case-control study,2020,48
+10.1016/j.envres.2020.110591,ok,W3113952926,Objective environmental exposures correlate differently with recreational and transportation walking: A cross-sectional national study in the Netherlands,2020,51
+10.1016/j.regsciurbeco.2021.103719,ok,W3123326008,Sorting based on urban heritage and income: Evidence from the Amsterdam metropolitan area,2021,6
+10.1002/hec.4126,ok,W3040917377,Eligibility or use? Disentangling the sources of horizontal inequity in home care receipt in the Netherlands,2020,22
+10.1016/j.envint.2021.106635,ok,W3165397993,Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study,2021,86
+10.1111/jcms.13185,ok,W3137368901,No More Gouda in Moscow? Distributive Effects of the Imposition of Sanctions,2021,11
+10.1007/s40865-021-00183-7,ok,W4206813526,"Single-Parent Families and Adolescent Crime: Unpacking the Role of Parental Separation, Parental Decease, and Being Born to a Single-Parent Family",2021,18
+10.1016/j.landurbplan.2021.104181,ok,W3182904300,Can’t see the wood for the trees? An assessment of street view- and satellite-derived greenness measures in relation to mental health,2021,121
+10.1016/j.scitotenv.2022.157329,ok,W4285400580,Living near coasts is associated with higher suicide rates among females but not males: A register-based linkage study in the Netherlands,2022,18
+10.1016/j.scitotenv.2020.140914,ok,W3043441880,"Outdoor light at night, air pollution and depressive symptoms: A cross-sectional study in the Netherlands",2020,101
+10.1016/j.healthplace.2021.102543,ok,W3135763198,Longitudinal exposure assessments of neighbourhood effects in health research: What can be learned from people's residential histories?,2021,17
+10.1016/j.jebo.2022.08.028,ok,W4295872822,Estimating the health value added by nursing homes,2022,11
+10.1177/17461979221084109,ok,W4294605519,Are schools’ qualification and civic outcomes related? The role of schools’ student composition and tracking,2022,6
+10.2139/ssrn.3735777,ok,W3169170929,The Global Financial Crisis and Employee Mental Health,2021,0
+10.2139/ssrn.3772659,ok,W3123251556,Corporate Financial Frictions and Employee Mental Health,2023,5
+10.1101/2020.09.15.296236,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,94
