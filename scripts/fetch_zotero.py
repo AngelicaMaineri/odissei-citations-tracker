@@ -8,9 +8,11 @@ Settings come from environment variables (set in GitHub under Settings -> Secret
   ZOTERO_COLLECTION_KEY  optional, e.g. HG37SSWU; its subcollections are included too
                          (leave empty to read the whole library)
   ZOTERO_API_KEY         optional for public libraries, needed for private ones
+  ZOTERO_ITEM_TYPES      optional, e.g. journalArticle,thesis,book (leave empty to keep every type)
 
-Writes two files:
+Writes three files:
   data/dois.txt                 one DOI per line, used by fetch_citations.py
+  data/zotero_items.csv         every item: DOI, item type, title, authors, year, journal, folders
   data/zotero_missing_doi.csv   Zotero items without a DOI, so you can fix them in Zotero
 """
 import csv
@@ -24,6 +26,7 @@ LIBRARY_ID = os.environ.get("ZOTERO_LIBRARY_ID", "")
 LIBRARY_TYPE = os.environ.get("ZOTERO_LIBRARY_TYPE") or "group"
 COLLECTION_KEY = os.environ.get("ZOTERO_COLLECTION_KEY", "")
 API_KEY = os.environ.get("ZOTERO_API_KEY", "")
+ITEM_TYPES = {t.strip() for t in os.environ.get("ZOTERO_ITEM_TYPES", "").split(",") if t.strip()}
 
 if not LIBRARY_ID:
     sys.exit("ZOTERO_LIBRARY_ID is not set")
@@ -56,6 +59,7 @@ def collection_and_subcollections(key, name, depth=0):
 
 
 items = {}  # keyed by Zotero item key, so an item filed in several folders counts once
+folders = {}  # item key -> names of the folders it is filed in
 if COLLECTION_KEY:
     response = requests.get(f"{base}/collections/{COLLECTION_KEY}", headers=headers, timeout=60)
     response.raise_for_status()
@@ -67,6 +71,7 @@ if COLLECTION_KEY:
         print(f"  {'  ' * depth}{name}: {len(folder_items)} items")
         for item in folder_items:
             items[item["key"]] = item
+            folders.setdefault(item["key"], []).append(name)
 else:
     for item in get_all(f"{base}/items/top"):
         items[item["key"]] = item
@@ -88,12 +93,38 @@ def find_doi(data):
     return ""
 
 
-dois, missing, seen = [], [], set()
+def authors(creators):
+    names = [c.get("lastName") or c.get("name") or "" for c in creators if c.get("creatorType") == "author"]
+    names = [n for n in names if n]
+    return f"{names[0]} et al." if len(names) > 3 else ", ".join(names)
+
+
+VENUE_FIELDS = ("publicationTitle", "bookTitle", "proceedingsTitle", "university",
+                "institution", "repository", "websiteTitle", "publisher")
+
+dois, missing, seen, table = [], [], set(), []
+kept_types, skipped_types = {}, {}
 for item in items:
     data = item["data"]
-    if data.get("itemType") in ("attachment", "note", "annotation"):
+    item_type = data.get("itemType", "")
+    if item_type in ("attachment", "note", "annotation"):
         continue
+    if ITEM_TYPES and item_type not in ITEM_TYPES:
+        skipped_types[item_type] = skipped_types.get(item_type, 0) + 1
+        continue
+    kept_types[item_type] = kept_types.get(item_type, 0) + 1
     doi = find_doi(data)
+    year = re.search(r"\b(19|20)\d{2}\b", data.get("date", ""))
+    table.append({
+        "zotero_key": data["key"],
+        "doi": doi,
+        "item_type": item_type,
+        "title": data.get("title", ""),
+        "authors": authors(data.get("creators", [])),
+        "year": year.group(0) if year else "",
+        "venue": next((data[f] for f in VENUE_FIELDS if data.get(f)), ""),
+        "folders": "; ".join(folders.get(data["key"], [])),
+    })
     if not doi:
         missing.append({"zotero_key": data["key"], "title": data.get("title", ""), "item_type": data.get("itemType", "")})
     elif doi.lower() not in seen:  # DOIs are case-insensitive; skip duplicates
@@ -107,11 +138,19 @@ if not dois:
 with open("data/dois.txt", "w", encoding="utf-8") as file:
     file.write("\n".join(dois) + "\n")
 
+with open("data/zotero_items.csv", "w", newline="", encoding="utf-8") as file:
+    writer = csv.DictWriter(file, fieldnames=list(table[0].keys()))
+    writer.writeheader()
+    writer.writerows(table)
+
 with open("data/zotero_missing_doi.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=["zotero_key", "title", "item_type"])
     writer.writeheader()
     writer.writerows(missing)
 
-print(f"{len(items)} items in Zotero (after removing items filed in several folders): {len(dois)} with a DOI, {len(missing)} without")
+print("Item types kept:   " + ", ".join(f"{t} {n}" for t, n in sorted(kept_types.items())))
+if skipped_types:
+    print("Item types skipped: " + ", ".join(f"{t} {n}" for t, n in sorted(skipped_types.items())))
+print(f"{sum(kept_types.values())} items kept: {len(dois)} with a DOI, {len(missing)} without")
 for m in missing:
     print(f"  no DOI: {m['title'][:90]}")
