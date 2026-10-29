@@ -17,6 +17,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - run: python scripts/fetch_zotero.py
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_LIBRARY_ID: ${{ vars.ZOTERO_LIBRARY_ID }}
+          ZOTERO_LIBRARY_TYPE: ${{ vars.ZOTERO_LIBRARY_TYPE }}
+          ZOTERO_COLLECTION_KEY: ${{ vars.ZOTERO_COLLECTION_KEY }}
       - run: python scripts/fetch_citations.py
       - name: Save the results
         run: |
