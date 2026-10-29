@@ -5,6 +5,8 @@ Writes two files:
   citations_by_year.csv  one row per DOI per year: citations received that year
 """
 import csv
+import datetime
+import os
 import time
 
 import requests
@@ -54,6 +56,21 @@ with open("data/citations_by_year.csv", "w", newline="", encoding="utf-8") as fi
     writer.writeheader()
     writer.writerows(cites_by_year)
 
+# Add today's numbers to the history file, so we can chart citations over time.
+# Running twice on the same day replaces that day's rows instead of duplicating them.
+today = datetime.date.today().isoformat()
+history_file = "data/citations_history.csv"
+history = []
+if os.path.exists(history_file):
+    with open(history_file, newline="", encoding="utf-8") as file:
+        history = [row for row in csv.DictReader(file) if row["date"] != today]
+for p in papers:
+    history.append({"date": today, "doi": p["doi"], "cited_by_count": p["cited_by_count"]})
+with open(history_file, "w", newline="", encoding="utf-8") as file:
+    writer = csv.DictWriter(file, fieldnames=["date", "doi", "cited_by_count"])
+    writer.writeheader()
+    writer.writerows(history)
+  
 # Summary, so problems are visible straight away.
 found = [p for p in papers if p["status"] == "ok"]
 print(f"{len(found)} of {len(papers)} DOIs found, {sum(p['cited_by_count'] for p in found)} citations in total")
