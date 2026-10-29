@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write          # lets the workflow save results to the repository
 
+concurrency:
+  group: update-citations
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
