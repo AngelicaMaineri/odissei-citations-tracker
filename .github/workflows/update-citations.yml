@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write          # lets the workflow save results to the repository
+  pages: write             # lets the workflow publish the dashboard
+  id-token: write          # needed by GitHub Pages
 
 concurrency:
   group: update-citations
@@ -15,6 +17,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,3 +42,11 @@ jobs:
           git diff --cached --quiet || git commit -m "Update citations $(date -u +%F)"
           git pull --rebase
           git push
+
+      # Publish the dashboard folder on GitHub Pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+      - id: deploy
+        uses: actions/deploy-pages@v4
