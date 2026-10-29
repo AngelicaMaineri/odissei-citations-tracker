@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ODISSEi publications and citations</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #F5F7F8;
+    --surface: #FFFFFF;
+    --ink: #172A3A;
+    --muted: #5C6B78;
+    --rule: #DCE2E6;
+    --bar: #2B6F84;
+    --bar-soft: #9CC3CF;
+    --line: #B87B0E;
+    --serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0F1820;
+      --surface: #16222C;
+      --ink: #E4ECF1;
+      --muted: #97A6B2;
+      --rule: #2A3843;
+      --bar: #5BB0C6;
+      --bar-soft: #2F5E6C;
+      --line: #F0B94A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans);
+    padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+  }
+  main { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1, h2 { font-family: var(--serif); font-weight: 400; margin: 0; }
+  .masthead { color: var(--muted); font-size: .95rem; margin: 0 0 1.5rem; }
+  h1 { font-size: clamp(1.9rem, 4.6vw, 3.1rem); line-height: 1.12; letter-spacing: -.01em; max-width: 22ch; }
+  .lede { color: var(--muted); margin: 1rem 0 0; max-width: 62ch; }
+  section { margin-top: 3rem; }
+  h2 { font-size: 1.45rem; margin-bottom: .35rem; }
+  .note { color: var(--muted); font-size: .92rem; margin: 0 0 1rem; max-width: 70ch; }
+  .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1.25rem; }
+
+  .filters { margin-top: 2rem; display: grid; gap: 1rem; }
+  .filter-row { display: grid; grid-template-columns: 7.5rem 1fr; gap: .75rem; align-items: start; }
+  @media (max-width: 640px) { .filter-row { grid-template-columns: 1fr; gap: .4rem; } }
+  .filter-label { font-weight: 600; font-size: .92rem; padding-top: .35rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .chip {
+    font: inherit; font-size: .88rem; color: var(--muted); background: transparent;
+    border: 1px solid var(--rule); border-radius: 999px; padding: .3rem .75rem; cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { color: var(--ink); background: var(--surface); border-color: var(--bar); box-shadow: inset 0 0 0 1px var(--bar); }
+  .chip[aria-pressed="false"] { opacity: .75; }
+  .chip .n { font-variant-numeric: tabular-nums; opacity: .7; margin-left: .3rem; }
+  .chip.reset { border-style: dashed; }
+
+  .chart { width: 100%; min-height: 220px; }
+  .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .chart text { fill: var(--muted); font: 12px var(--sans); font-variant-numeric: tabular-nums; }
+  .legend { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: .88rem; color: var(--muted); margin-top: .75rem; }
+  .legend span::before {
+    content: ""; display: inline-block; width: 14px; height: 10px; margin-right: .4rem;
+    background: var(--swatch); border-radius: 2px;
+  }
+  .legend .line::before { height: 3px; vertical-align: 3px; }
+  .split { display: grid; grid-template-columns: 1fr; gap: 3rem; }
+  @media (min-width: 860px) { .split { grid-template-columns: 1.15fr 1fr; gap: 2rem; } }
+  .split section { margin-top: 0; }
+  ol.top { list-style: none; margin: 0; padding: 0; counter-reset: rank; }
+  ol.top li {
+    counter-increment: rank; display: grid; grid-template-columns: 1.6rem 1fr auto; gap: .75rem;
+    align-items: baseline; padding: .7rem 0; border-top: 1px solid var(--rule);
+  }
+  ol.top li:first-child { border-top: 0; padding-top: 0; }
+  ol.top li::before { content: counter(rank); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .count { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+  .meta { display: block; color: var(--muted); font-size: .86rem; margin-top: .15rem; }
+  a { color: inherit; text-decoration-color: var(--bar-soft); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: currentColor; }
+  :focus-visible { outline: 2px solid var(--line); outline-offset: 2px; border-radius: 2px; }
+  .tools { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+  input[type=search] {
+    font: inherit; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--rule); border-radius: 6px; padding: .55rem .75rem; width: min(100%, 22rem);
+  }
+  .shown { color: var(--muted); font-size: .9rem; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: .7rem .6rem; border-top: 1px solid var(--rule); vertical-align: top; }
+  thead th { border-top: 0; border-bottom: 1px solid var(--ink); padding-top: 0; }
+  th button { font: inherit; font-weight: 600; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; }
+  th button[aria-sort]::after { content: " ↓"; color: var(--muted); }
+  th button[aria-sort="ascending"]::after { content: " ↑"; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .missing { color: var(--muted); font-size: .88rem; }
+  .more { margin-top: 1rem; font: inherit; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--rule); border-radius: 6px; padding: .5rem 1rem; cursor: pointer; }
+  footer { margin-top: 3.5rem; color: var(--muted); font-size: .88rem; max-width: 70ch; }
+</style>
+</head>
+<body>
+<main>
+  <p class="masthead">ODISSEi publication tracker</p>
+  <h1 id="headline">Loading the latest numbers…</h1>
+  <p class="lede" id="lede"></p>
+
+  <div class="filters" aria-label="Filters">
+    <div class="filter-row">
+      <span class="filter-label" id="type-label">Item type</span>
+      <div class="chips" id="type-chips" role="group" aria-labelledby="type-label"></div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label" id="folder-label">Zotero folder</span>
+      <div class="chips" id="folder-chips" role="group" aria-labelledby="folder-label"></div>
+    </div>
+    <p class="note" style="margin:0">Click a type or folder to show only that one, then click others to add them. Everything below follows the selection.</p>
+  </div>
+
+  <section>
+    <h2>Citations per year</h2>
+    <p class="note" id="per-year-note"></p>
+    <div class="panel">
+      <div class="chart" id="chart-citations" role="img" aria-label="Citations received per year, with a running total"></div>
+      <div class="legend">
+        <span style="--swatch: var(--bar)">Citations received that year</span>
+        <span class="line" style="--swatch: var(--line)">Running total</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="growth" hidden>
+    <h2>Total citations at each update</h2>
+    <p class="note">Recorded every Monday when the tracker runs, so this line grows week by week.</p>
+    <div class="panel"><div class="chart" id="chart-history" role="img" aria-label="Total citations at each update"></div></div>
+  </section>
+
+  <section>
+    <div class="split">
+      <section>
+        <h2>Publications per year</h2>
+        <p class="note">By year of publication.</p>
+        <div class="panel"><div class="chart" id="chart-papers" role="img" aria-label="Publications per year"></div></div>
+      </section>
+      <section>
+        <h2>Most cited</h2>
+        <p class="note">The five publications with the most citations on OpenAlex.</p>
+        <ol class="top" id="top"></ol>
+      </section>
+    </div>
+  </section>
+
+  <section>
+    <h2>All publications</h2>
+    <div class="tools">
+      <input type="search" id="search" placeholder="Search titles, authors, journals" aria-label="Search publications">
+      <span class="shown" id="shown" aria-live="polite"></span>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead>
+          <tr>
+            <th><button data-sort="title">Publication</button></th>
+            <th class="num"><button data-sort="year">Year</button></th>
+            <th class="num"><button data-sort="citations" aria-sort="descending">Citations</button></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <button class="more" id="more" hidden>Show all</button>
+  </section>
+
+  <footer id="footer"></footer>
+</main>
+
+<script>
+(() => {
+  const fmt = new Intl.NumberFormat("en");
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const plural = (n, one, many) => `${fmt.format(n)} ${n === 1 ? one : many}`;
+
+  const TYPE_NAMES = {
+    journalArticle: "Journal articles", bookSection: "Book chapters", book: "Books", preprint: "Preprints",
+    conferencePaper: "Conference papers", report: "Reports", manuscript: "Manuscripts", thesis: "Theses",
+    dataset: "Datasets", presentation: "Presentations", webpage: "Web pages", blogPost: "Blog posts",
+    document: "Documents", magazineArticle: "Magazine articles", newspaperArticle: "Newspaper articles",
+  };
+  const typeName = (t) => TYPE_NAMES[t] || t;
+
+  function niceMax(v) {
+    if (v <= 0) return 1;
+    const p = Math.pow(10, Math.floor(Math.log10(v)));
+    return [1, 2, 2.5, 5, 10].map((m) => m * p).find((m) => m >= v);
+  }
+
+  // Bar chart with an optional line on its own axis (or a line-only chart when bar is null).
+  function drawChart(el, items, opts) {
+    if (!items.length) { el.innerHTML = '<p class="note">Nothing to show for this selection.</p>'; return; }
+    const W = Math.max(el.clientWidth, 280), H = opts.height || 260;
+    const dual = opts.bar && opts.line;
+    const m = { t: 12, r: dual ? 56 : 8, b: 28, l: 52 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    let yMax = niceMax(Math.max(...items.map((d) => d[opts.bar] || 0)));
+    if (opts.integer) yMax = Math.max(4, Math.ceil(yMax / 4) * 4);
+    const lMax = opts.line ? niceMax(Math.max(...items.map((d) => d[opts.line]))) : 0;
+    const step = iw / items.length, bw = Math.max(Math.min(step * 0.62, 46), 2);
+    const x = (i) => m.l + step * i + step / 2;
+    const y = (v) => m.t + ih - (v / yMax) * ih;
+    const yl = (v) => m.t + ih - (v / lMax) * ih;
+    const labelEvery = Math.max(1, Math.ceil(items.length / Math.max(1, Math.floor(iw / 44))));
+    let s = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+    for (let k = 0; k <= 4; k++) {
+      const yy = m.t + ih - (ih / 4) * k;
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${yy}" y2="${yy}" stroke="${css("--rule")}"/>`;
+      s += `<text x="${m.l - 8}" y="${yy + 4}" text-anchor="end">${fmt.format(opts.bar ? (yMax / 4) * k : (lMax / 4) * k)}</text>`;
+      if (dual) s += `<text x="${W - m.r + 8}" y="${yy + 4}" style="fill:${css("--line")}">${fmt.format((lMax / 4) * k)}</text>`;
+    }
+    const last = items.length - 1;
+    items.forEach((d, i) => {
+      if (opts.bar) {
+        const v = d[opts.bar] || 0, partial = opts.partial && opts.partial(d);
+        s += `<rect x="${x(i) - bw / 2}" y="${y(v)}" width="${bw}" height="${m.t + ih - y(v)}" rx="2" fill="${css(partial ? "--bar-soft" : "--bar")}">`
+          + `<title>${esc(d[opts.x])}: ${fmt.format(v)}${partial ? " so far" : ""}</title></rect>`;
+      }
+      if (i === last || (i % labelEvery === 0 && last - i >= labelEvery)) {
+        s += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${esc(opts.label ? opts.label(d) : d[opts.x])}</text>`;
+      }
+    });
+    if (opts.line) {
+      s += `<polyline points="${items.map((d, i) => `${x(i)},${yl(d[opts.line])}`).join(" ")}" fill="none" stroke="${css("--line")}" stroke-width="2.5" stroke-linejoin="round"/>`;
+      items.forEach((d, i) => {
+        s += `<circle cx="${x(i)}" cy="${yl(d[opts.line])}" r="3.5" fill="${css("--line")}"><title>${esc(opts.label ? opts.label(d) : d[opts.x])}: ${fmt.format(d[opts.line])}</title></circle>`;
+      });
+    }
+    el.innerHTML = s + "</svg>";
+  }
+
+  function start(data) {
+    const all = data.papers;
+    const year = data.current_year;
+    const shortDate = (d) => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+
+    // ---- Filters: a paper is shown if any of its types and any of its folders are selected.
+    const countBy = (key) => {
+      const counts = {};
+      all.forEach((p) => p[key].forEach((v) => { counts[v] = (counts[v] || 0) + 1; }));
+      return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    };
+    const types = countBy("types"), folders = countBy("folders");
+    const selected = { types: new Set(types.map((t) => t[0])), folders: new Set(folders.map((f) => f[0])) };
+
+    function buildChips(el, entries, key, nameOf) {
+      const total = entries.length;
+      el.innerHTML = entries.map(([v, n]) =>
+        `<button class="chip" data-value="${esc(v)}" aria-pressed="true">${esc(nameOf(v))}<span class="n">${fmt.format(n)}</span></button>`
+      ).join("") + `<button class="chip reset" data-reset hidden>Select all</button>`;
+      const reset = el.querySelector("[data-reset]");
+      el.addEventListener("click", (e) => {
+        const btn = e.target.closest("button");
+        if (!btn) return;
+        if (btn.hasAttribute("data-reset")) {
+          entries.forEach(([v]) => selected[key].add(v));
+        } else {
+          const v = btn.dataset.value, set = selected[key];
+          // First click while everything is selected: show only that one.
+          if (set.size === total) { set.clear(); set.add(v); }
+          else if (set.has(v)) { set.delete(v); if (!set.size) entries.forEach(([w]) => set.add(w)); }
+          else set.add(v);
+        }
+        el.querySelectorAll("[data-value]").forEach((b) => b.setAttribute("aria-pressed", selected[key].has(b.dataset.value)));
+        reset.hidden = selected[key].size === total;
+        update();
+      });
+    }
+    buildChips($("type-chips"), types, "types", typeName);
+    buildChips($("folder-chips"), folders, "folders", (f) => f);
+
+    const visible = () => all.filter((p) =>
+      p.types.some((t) => selected.types.has(t)) && p.folders.some((f) => selected.folders.has(f)));
+
+    // ---- Table state
+    let sortKey = "citations", sortDir = -1, query = "", showAll = false;
+    const PAGE = 50;
+
+    let papers = [];
+    function update() {
+      papers = visible();
+      const total = papers.reduce((s, p) => s + (p.citations || 0), 0);
+      const notFound = papers.filter((p) => !p.found).length;
+
+      const perYear = {};
+      let inYears = 0;
+      papers.forEach((p) => Object.entries(p.by_year).forEach(([y, n]) => { perYear[y] = (perYear[y] || 0) + n; inYears += n; }));
+      const earlier = Math.max(total - inYears, 0);
+      let running = earlier;
+      const citeYears = Object.keys(perYear).map(Number).sort((a, b) => a - b).map((y) => {
+        running += perYear[y];
+        return { year: y, citations: perYear[y], cumulative: running };
+      });
+
+      $("headline").textContent = `${plural(papers.length, "publication", "publications")} linked to ODISSEi ${papers.length === 1 ? "has" : "have"} been cited ${plural(total, "time", "times")}.`;
+      let lede = `${fmt.format(perYear[year] || 0)} of those citations arrived in ${year}. `;
+      if (notFound) lede += `${plural(notFound, "publication", "publications")} could not be found on OpenAlex and ${notFound === 1 ? "is" : "are"} not counted. `;
+      lede += `Updated ${new Date(data.updated + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}.`;
+      $("lede").textContent = lede;
+      $("per-year-note").textContent = (earlier > 0
+        ? `OpenAlex reports citations by year for recent years only; the ${fmt.format(earlier)} older citations are included in the running total from the start. `
+        : "") + `The ${year} bar is lighter because the year is not over.`;
+
+      const pubYears = {};
+      papers.forEach((p) => { if (p.year) pubYears[p.year] = (pubYears[p.year] || 0) + 1; });
+      const pubs = Object.keys(pubYears).map(Number).sort((a, b) => a - b).map((y) => ({ year: y, papers: pubYears[y] }));
+
+      const hist = data.dates.map((d, i) => ({ date: d, citations: papers.reduce((s, p) => s + (p.history[i] || 0), 0) }));
+
+      const charts = () => {
+        drawChart($("chart-citations"), citeYears, { x: "year", bar: "citations", line: "cumulative", partial: (d) => d.year === year });
+        drawChart($("chart-papers"), pubs, { x: "year", bar: "papers", height: 220, integer: true, partial: (d) => d.year === year });
+        $("growth").hidden = hist.length < 2;
+        if (hist.length > 1) drawChart($("chart-history"), hist, { x: "date", bar: null, line: "citations", height: 220, label: (d) => shortDate(d.date) });
+      };
+      redraw = charts;
+      charts();
+
+      $("top").innerHTML = papers.filter((p) => p.citations).slice(0, 5).map((p) =>
+        `<li><span>${titleHtml(p)}<span class="meta">${metaHtml(p)}</span></span><span class="count">${fmt.format(p.citations)}</span></li>`
+      ).join("") || "<li><span>No citations recorded for this selection.</span></li>";
+
+      drawRows();
+    }
+
+    const link = (p) => p.dois.length ? `https://doi.org/${p.dois[0]}` : "";
+    const titleHtml = (p) => link(p) ? `<a href="${esc(link(p))}">${esc(p.title)}</a>` : esc(p.title);
+    const metaHtml = (p) => [p.authors, p.venue, p.year].filter(Boolean).map(esc).join(", ");
+
+    function drawRows() {
+      const q = query.toLowerCase();
+      const rows = papers
+        .filter((p) => !q || [p.title, p.authors, p.venue].join(" ").toLowerCase().includes(q))
+        .sort((a, b) => {
+          const av = a[sortKey], bv = b[sortKey];
+          if (av == null && bv == null) return 0;
+          if (av == null) return 1;
+          if (bv == null) return -1;
+          return (typeof av === "string" ? av.localeCompare(bv) : av - bv) * sortDir;
+        });
+      const shown = showAll ? rows : rows.slice(0, PAGE);
+      $("rows").innerHTML = shown.map((p) => `<tr>
+        <td>${titleHtml(p)}<span class="meta">${[p.authors, p.venue].filter(Boolean).map(esc).join(", ")}${p.types.length ? " · " + p.types.map(typeName).join(", ") : ""}</span></td>
+        <td class="num">${p.year ?? ""}</td>
+        <td class="num">${p.citations == null ? '<span class="missing">Not found</span>' : `<span class="count">${fmt.format(p.citations)}</span>`}</td>
+      </tr>`).join("") || '<tr><td colspan="3">No publications match.</td></tr>';
+      $("shown").textContent = rows.length > shown.length
+        ? `Showing ${fmt.format(shown.length)} of ${fmt.format(rows.length)}`
+        : plural(rows.length, "publication", "publications");
+      $("more").hidden = rows.length <= shown.length;
+      $("more").textContent = `Show all ${fmt.format(rows.length)}`;
+    }
+
+    const buttons = document.querySelectorAll("th button");
+    buttons.forEach((btn) => btn.addEventListener("click", () => {
+      const key = btn.dataset.sort;
+      sortDir = key === sortKey ? -sortDir : (key === "title" ? 1 : -1);
+      sortKey = key;
+      buttons.forEach((b) => b.removeAttribute("aria-sort"));
+      btn.setAttribute("aria-sort", sortDir === 1 ? "ascending" : "descending");
+      drawRows();
+    }));
+    $("search").addEventListener("input", (e) => { query = e.target.value.trim(); drawRows(); });
+    $("more").addEventListener("click", () => { showAll = true; drawRows(); });
+
+    let redraw = () => {}, timer;
+    addEventListener("resize", () => { clearTimeout(timer); timer = setTimeout(() => redraw(), 150); });
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraw());
+
+    update();
+
+    const host = location.hostname.match(/^([^.]+)\.github\.io$/);
+    const repo = host && location.pathname.split("/").filter(Boolean)[0];
+    const repoUrl = repo ? `https://github.com/${host[1]}/${repo}` : "";
+    let foot = "Publications come from the ODISSEi Zotero library. Citation counts come from OpenAlex and usually differ from Google Scholar or Scopus. A preprint and its published version count as one publication when OpenAlex links them.";
+    if (data.items_without_doi) foot += ` ${plural(data.items_without_doi, "Zotero item has", "Zotero items have")} no DOI and ${data.items_without_doi === 1 ? "is" : "are"} not included.`;
+    if (repoUrl) foot += ` Data and code: <a href="${repoUrl}">${esc(host[1])}/${esc(repo)}</a>.`;
+    $("footer").innerHTML = foot;
+  }
+
+  fetch("data.json", { cache: "no-cache" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(start)
+    .catch((err) => {
+      console.error(err);
+      $("headline").textContent = "The dashboard data could not be loaded.";
+      $("lede").textContent = "data.json is missing or unreadable. Check the latest run in the repository's Actions tab.";
+    });
+})();
+</script>
+</body>
+</html>
