@@ -1,72 +1,531 @@
 doi,status,openalex_id,title,year,cited_by_count
-10.1080/14616696.2023.2207108,ok,W4382763101,Strategies of informal caregivers to adapt paid work,2023,16
-10.1080/20008066.2025.2514888,ok,W4411458286,Does the emotional burden of participating in trauma-related surveys discourage future participation? A population-based study,2025,2
-10.1080/24694452.2017.1411245,ok,W2790419110,Multiscale Measures of Population: Within- and between-City Variation in Exposure to the Sociospatial Context,2018,73
-10.1093/esr/jcac026,ok,W4293052867,A Whole Population Network and Its Application for the Social Sciences,2022,41
-10.1093/esr/jcac054,ok,W4309905170,Are classrooms equalizers or amplifiers of inequality? A genetically informative investigation of educational performance,2022,9
-10.1093/jeea/jvaf037,ok,W7095002734,Prospect Theory for Intertemporal Choice,2025,0
-10.1093/pnasnexus/pgaf256,ok,W4413910021,"Ingroup preferences, segregation, and intergroup contact in neighborhoods and civic organizations",2025,3
-10.1111/1468-4446.70020,ok,W4413030300,The Strength of Weak Ties? Understanding Educational Differences in Parents' Childcare Benefit Knowledge by Applying a Social Capital Approach,2025,1
-10.1111/bjir.12718,ok,W4309758613,Flexible labour market and trade unions: Surprising career paths of Dutch sub‐Saharan Africans,2022,3
-10.1111/bjso.12567,ok,W4291124612,Collective nostalgia: Triggers and consequences for collective action intentions,2022,46
-10.1111/fare.12922,ok,W4382022199,Financial contributions to stepchildren: The role of gender and postdivorce family structure,2023,5
-10.1111/gwao.12725,ok,W3176379498,Are the gender gaps in informal caregiving intensity and burden closing due to the COVID‐19 pandemic? Evidence from the Netherlands,2021,31
-10.1111/gwao.12951,ok,W4312182144,The influence of the COVID‐19 pandemic on changes in perceived work pressure for Dutch mothers and fathers,2022,12
-10.1111/imig.13252,ok,W4392662589,Size and ethnic homogeneity of extended social networks in the Netherlands: Differences between migrant groups and migrant generations,2024,9
-10.1111/jcms.13185,ok,W3137368901,No More Gouda in Moscow? Distributive Effects of the Imposition of Sanctions,2021,11
-10.1111/jomf.12950,ok,W4388935338,Extending theoretical explanations for gendered divisions of care during the COVID ‐19 pandemic,2023,13
+10.21203/rs.3.rs-10682202/v1,ok,W7221776549,Occupational Underutilization and the Social Concentration of Political Disaffection,2026,0
+10.1016/j.cosrev.2023.100571,ok,W4379743515,A survey of the European Open Science Cloud services for expanding the capacity and capabilities of multidisciplinary scientific applications,2023,12
+10.2139/ssrn.6837280,ok,W7171625532,How is Voter Movement Among Parties Structured? A Gravity Model of Voter Flow,2026,0
+10.2196/89446,ok,W7170931687,"Identifying Subgroups in Acceptance and Intended Use of Digital Technologies and the Role of Economic, Cultural, Social, and Person Capital: Latent Class Analysis",2026,0
+10.4121/8B039956-3898-45BC-A87E-86F011791F38.V1,ok,W7171952863,"Data and code underlying the publication: ""Why inequality does not always lead to segregation: the role of social housing in the Netherlands""",2026,0
+10.4121/9C99EFAE-E684-41B7-A272-BD83FA0CA96B,ok,W7160631974,"Survey Dataset Underlying the PhD Dissertation ""Environmental Justice Dimension of Heatwaves in Temperate Cities: Reconceptualising Urban Heat Vulnerability through Investigating Behavioural Adaptation""",2026,0
+10.1057/s41599-026-09024-8,ok,W7212802409,Trajectory of life satisfaction during the COVID-19 pandemic mitigation period: the effects of personality and changes in optimism,2026,0
+10.1027/1015-5759/a000963,ok,W7132242694,Improving the Measurement of Financial Literacy by Modeling Noncorrect Responses,2026,0
+10.1371/journal.pone.0353935,ok,W7212032333,Physically aggressive conspiracy believers often faced various psycho-social problems: Findings from a longitudinal population-based study,2026,0
+10.1177/17499755261469993,ok,W7204997227,"‘Tastes Refined, Friends Defined?’ How Cultural Participation and Educational Belonging Shape Educational Network Diversity",2026,0
+10.48550/arXiv.2608.25072,ok,W7204491954,The complex relationship between anti-immigrant sentiment and exposure in the Netherlands,2026,0
+10.1080/09585192.2026.2719546,ok,W7203926244,"Not just invited to the party, but also asked to dance: how inclusive work practices foster organizational commitment over time",2026,0
+10.1016/j.ssmmh.2025.100470,ok,W4411111590,Mental health trajectories surrounding retirement: A longitudinal perspective,2025,2
+10.1002/cam4.72027,ok,W7166666139,"Sex‐, Age‐, Lifestyle‐, and Comorbidity‐Specific Reference Values for Serum Cytokines in the Dutch General Population: Results From the PROFILES Registry",2026,0
+10.33540/3608,ok,W7163651527,Care on the Margins,2026,0
+10.3233/SHTI260628,ok,W7161961679,Predicting COVID-19 Vaccination Decision-Making Profiles Among Dutch Adults: From Survey to National Administrative Data,2026,0
+10.1016/j.actpsy.2026.106955,ok,W7161754660,"Different minds, shared struggles: Personality and self-beliefs across neurodivergent conditions",2026,3
+10.1016/j.actpsy.2026.107136,ok,W7162636334,Do potentially traumatic events experienced by people in one's social circle affect one's own mental health and emotional support? Findings from a prospective population-based study,2026,0
+10.1016/j.genhosppsych.2026.05.008,ok,W7160510905,Pre-existing diabetes mellitus is associated with an increased risk for high PTSD symptom levels. Results of a prospective population-based study,2026,0
+10.1111/psj.70115,ok,W7140173244,Democratic Values in Citizen Participation: What Citizens Prioritize in Participation,2026,0
+10.1016/j.ejrad.2026.112823,ok,W7140602143,Public preferences for biopsy risk disclosure in the Netherlands,2026,0
+10.1057/s41269-026-00417-w,ok,W7136737040,“With a little help from my friends”? The role of social interaction in immigrants' perception of their ability to understand politics in the Netherlands,2026,0
+10.1016/j.jpainsymman.2026.02.012,ok,W7131264398,Four Groups of Advance Care Planning Engagement Among Older People: A Latent Class Analysis,2026,0
+10.48550/arXiv.2602.00234,ok,W7127423874,Fragmentation of a longitudinal population-scale social network: Decreasing structural social cohesion in the Netherlands,2026,0
+10.1177/08902070251383955/v2/review2,ok,W4415318934,"Review for ""Big Five personality traits and voting: A systematic review, meta-analysis, and mega-analysis""",2025,0
+10.52783/eel.v15i1.2781,ok,W4408840195,"""The Impact of Remote Work on Employee Productivity and Work-Life Balance""",2025,0
+10.1037/sgd0000655.supp,ok,W4381380706,"Supplemental Material for Disparities in COVID-19-Related Trauma and Internalizing Symptoms Across Sexual Orientation, Race/Ethnicity, and Their Intersection During the Pandemic",2023,0
+10.1108/ijse-02-2023-0111/v6/review1,ok,W7116333076,"Review for ""Does Financial Literacy Influence Financial Planning? A Study among Working Women in India""",2025,0
+10.4135/9781529697179,ok,W4393082877,Using Longitudinal Latent Class Analysis to Detect Mixed Trajectories of Change in Panel Data,2024,0
+10.5040/9781839979552.ch-011,ok,W4415128258,Ten Secrets of Happy Neurodiverse Couples,2024,0
+10.5040/9798216429418.ch-3,ok,W7101417722,Statistical Analysis of Electoral Support for Right-Wing Populist Parties,2024,0
+10.21436/inbor.114738965,ok,W4408298107,Onderzoeksprogramma 2021‐2025 voor het uitvoeren van radaronderzoek naar de effecten van windturbines op vogels en vleermuizen: Resultaten validaties juli 2023 tot juni 2024.,2024,0
+10.5553/tvk/1871-41022024020003001,ok,W4403196021,De burger centraal – er wordt aan gewerkt,2024,0
+10.1037/apl0001065.supp,ok,W4309761025,Supplemental Material for Retaining Retirement-Eligible Older Workers Through Training Participation: The Joint Implications of Individual Growth Need and Organizational Climates,2022,0
+10.1377/forefront.20240730.607302,ok,W4401179782,Federal Appeals Court Upholds Graphic Warning Labels For Cigarettes,2024,0
+10.32388/tluhwd,ok,W4402611761,Belief about social support for a behaviour,2024,0
+10.55203/ckwk5401,ok,W4388429926,Working with groups opposing violence against women,2023,0
+10.14738/assrj.102.13983,ok,W4321479732,Examining the Effect of Perceived Price Fairness on Revisit Intention of Local Guests Sharia Hotel: Customer Satisfaction as Mediation,2023,1
+10.5040/9781718236011.ch-015,ok,W4392457196,Bouncing Back,2023,0
+10.1093/ww/9780199540884.013.u300089,ok,W4404930535,"Van Mierlo, Freddie, MP (Lib Dem) Henley and Thame, since 2024",2024,0
+10.59490/mg.108,ok,W4396958845,Verbind klimaat en biodiversiteit,2024,0
+10.1177/25152459231177713/v1/review3,ok,W4380434729,"Review for ""Beyond the Mean: Can We Improve the Predictive Power of Psychometric Scales?""",2022,0
+10.32388/b7k0qx.2,ok,W4396871021,Need for a sense of belonging and attachment,2024,0
+10.1787/d8698ef5-en,ok,W4372060432,Detailed aid statistics: Total official flows (Edition 2022),2023,0
 10.1111/soin.12574,ok,W4387856056,What Role Do Occupational Differences Play in Subjective Working Conditions Throughout the COVID‐19 Pandemic?,2023,3
-10.1145/3587259.3627559,ok,W4389109157,Advancing data sharing and reusability for restricted access data on the Web: introducing the DataSet-Variable Ontology,2023,0
-10.1162/dint_a_00244,ok,W4391033846,Optimizing ASReview Simulations: A generic Multiprocessing Solution for ‘Light-data’ and ‘Heavy-data’ Users,2024,7
-10.1177/00031224241252079,ok,W4398208176,Doing Genders: Partner’s Gender and Labor Market Behavior,2024,18
-10.1177/00323217211049299,ok,W3203740134,Are Populists Politically Intolerant? Citizens’ Populist Attitudes and Tolerance of Various Political Antagonists,2021,29
-10.1177/00332941241300949,ok,W4404579832,The Influence of the Big Five Personality Factors on Mental Health Before and During the COVID-19 Pandemic: A Prospective Study,2024,1
-10.1177/0143831X251331749,ok,W4409599629,"Why are employees most susceptible to automation least likely to retrain? Automation risks and inequalities in learning intention, perceived opportunities, and learning participation among employee groups",2025,5
-10.1177/01461672221140355,ok,W4313226591,Greed: What Is It Good for?,2022,24
-10.1177/05390184241297742,ok,W4404859489,The potential of benchmark challenges in the social sciences,2024,3
-10.1177/08959048241309345,ok,W4407927564,Implementation Barriers and Program Effectiveness: A Quasi-Experimental Study on an Extended School Week,2025,1
-10.1177/09500170251348856,ok,W4413301835,Wage Premium or Wage Penalty? Gendered Long-term Wage Development of Family Caregivers,2025,1
-10.1177/09589287221080411,ok,W4220976477,Unequal but balanced: Highly educated mothers’ perceptions of work–life balance during the COVID-19 lockdown in Finland and the Netherlands,2022,26
-10.1177/09589287231164343,ok,W4362700979,Psychological barriers to take-up of healthcare and child support benefits in the Netherlands,2023,3
-10.1177/17461979221084109,ok,W4294605519,Are schools’ qualification and civic outcomes related? The role of schools’ student composition and tracking,2022,6
-10.1186/s12889-023-16123-7,ok,W4383217068,School health promotion and the consumption of water and sugar-sweetened beverages in secondary schools: a cross-sectional multilevel study,2023,5
-10.1186/s12889-024-18546-2,ok,W4395007633,School health promotion and fruit and vegetable consumption in secondary schools: a repeated cross-sectional multilevel study,2024,4
-10.1332/23978821Y2023D000000021,ok,W4390317111,"Informal care trajectories: developments in care demands, intensity and complexity over the course of care episodes",2023,4
-10.1332/239788221X16890880355113,ok,W4386188600,Informal care trajectories over the lifecourse in the Netherlands,2023,8
-10.1371/journal.pone.0242249,ok,W3108244190,"‘Intelligent’ lockdown, intelligent effects? Results from a survey on gender (in)equality in paid work, the division of childcare and household work, and quality of life among parents in the Netherlands during the Covid-19 lockdown",2020,218
-10.1371/journal.pone.0261078,ok,W4200566895,Physical and psychological health at adolescence and home care use later in life,2021,1
-10.1371/journal.pone.0292805,ok,W4387612040,Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs,2023,16
+10.1007/s11150-024-09713-w,ok,W4399541077,The long-run effects of recessions on fertility,2024,3
+10.31219/osf.io/7k4ct,ok,W4366003426,"Time to get attention: The effect of temporal focus on health, income and happiness",2023,0
+10.2139/ssrn.5382533,ok,W4413041551,Explaining the Trust Paradox: How Foreign Media Strengthens Government Confidence via Political-Economic Awareness-and for Whom-in China,2025,0
+10.2139/ssrn.4966062,ok,W4402768443,The Governance Role of Big Data Tax Enforcement: Evidence from Related Party Transactionthe Governance Role of Big Data Tax Enforcement: Evidence from Related Party Transaction,2024,0
+10.1177/00323217231173800,ok,W4378215977,Populist Democrats? Unpacking the Relationship Between Populist and Democratic Attitudes at the Citizen Level,2023,70
+10.5553/tvv/.000089,ok,W4417238726,Onveiliger met WhatsApp-buurtpreventie? Verschillen in veiligheidsbeleving tussen deelnemers en niet-deelnemers,2025,0
+10.2139/ssrn.5170382,ok,W4408220056,Greed is Good? Greed and the Disposition Effect,2025,0
+10.56028/aehssr.9.1.302.2024,ok,W4392759730,The Role of Social Media in Shaping Fertility Intentions Among Young Women in East Asian Cultures,2024,2
+10.1177/08944393241269406,ok,W4401855268,Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach,2024,3
+10.64628/ab.7sn59w7qf,ok,W4414611810,Peru’s gastronomic boom risks excluding the Indigenous people whose food it celebrates,2025,0
+10.1016/j.jad.2022.11.038,ok,W4309860010,Corrigendum: Curiosity does help to protect against anxiety and depression symptoms but not conversely,2022,6
+10.21203/rs.3.rs-7906385/v1,ok,W4415418881,Relationships Between Informal Caregiver Burden and Psychological Distress Among Primary Family Caregivers of Stroke Patients,2025,0
 10.1371/journal.pone.0302633,ok,W4399996794,"Gender inequality in work location, childcare and work-life balance: Phase-specific differences throughout the COVID-19 pandemic",2024,6
-10.14765/zzf.dok-2297,ok,W3185791708,Nostalgia and Populism. An Empirical Psychological Perspective,2021,3
-10.15195/v10.a14,ok,W4382195745,"Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood",2023,17
-10.2218/ijdc.v19i1.1048,ok,W4409736878,Improving the Transparency of Data Access Conditions in the SSH Domain,2025,0
-10.23889/ijpds.v9i5.2752,ok,W4402391073,ODISSEI Secure Supercomputer - a breakthrough in complex data linkage and applications.,2024,0
-10.31219/osf.io/yshkt,ok,W4372403073,Who's Afraid of Policy Experiments?,2023,7
+10.31234/osf.io/68hpb,ok,W4388043958,Longitudinal within-person variability around personality trajectories,2023,1
+10.1111/jopy.12802,ok,W4312019009,The associations between life events and person‐centered personality consistency,2022,12
+10.64628/aa.ervvnf3wk,ok,W4413501492,"HILDA finds working from home boosts women’s job satisfaction more than men’s, and that has a downside",2022,0
+10.52922/ti77468,ok,W4399036102,Online dating app facilitated sexual violence victimisation among people with disability,2024,4
+10.61173/d85c3x20,ok,W4417500726,"Modeling Income: A Regression-Based Econometric Analysis of How Age, Gender, and Education Influence Income",2025,0
+10.1080/03601277.2025.2518164,ok,W4411206287,How does volunteering affect the life satisfaction of older adults? Evidence from a national survey in China,2025,3
+10.1108/ijebr-12-2022-1070,ok,W4387017815,COVID-19 vaccination: lower intention and coverage among entrepreneurs compared to employees,2023,2
+10.31219/osf.io/2kpjb,ok,W4387575554,Unemployment and Redistributive Attitudes during and after the Impressionable Years,2023,1
+10.1016/j.janxdis.2023.102796,ok,W4388556626,Pre-event attachment anxiety and avoidance predict posttraumatic stress symptom severity – Results from a longitudinal population-based study,2023,6
+10.64628/ab.5p9kvwut9,ok,W4413530851,Using your phone at work can help to balance your home life – new research,2024,0
+10.38139/ts.2022.28,ok,W4403140380,De aantrekkingskracht van diverse buurten: sociale sortering en culturele repertoires in de scene(s) van de Brusselse wijken Matonge en Molenbeek,2022,1
+10.1177/01461672251315200,ok,W4408367572,Hungry Ghosts Eat Casino Chips: Associations Between Dispositional Greed and Gambling,2025,8
+10.1080/10967494.2023.2189334,ok,W4365450070,Morally motivated public service: An empirical examination of the moral theory of public service motivation,2023,9
+10.1080/13669877.2022.2128392,ok,W4301395011,Effects of comparative information when communicating personalized risks of treatment outcomes: an experimental study,2022,9
+10.1186/s12889-024-18669-6,ok,W4396546033,"“R” you getting this? Factors contributing to the public’s understanding, evaluation, and use of basic reproduction numbers for infectious diseases",2024,4
+10.21203/rs.3.rs-5414037/v1,ok,W4404863529,Chiseling the Graph: An Edge-Sculpting Method for Explaining Graph Neural Networks,2024,0
+10.2139/ssrn.5274226,ok,W4411483802,Study of the Relationship Between Social Media Sentiment and the Stock Market Herd Effect,2025,0
+10.2139/ssrn.4441744,ok,W4375928517,The Effect of Immigration on the Wage of Natives a Model with Endogenous Labour Supply,2023,0
+10.31235/osf.io/4bevh_v1,ok,W4413808755,"Identifying Subgroups in Acceptance and Use of Digital Technologies to Support Physical Health: The Role of Economic, Cultural, Social and Personal Capital",2025,0
+10.3389/frhs.2023.1181532,ok,W4381930060,Postponed healthcare in The Netherlands during the COVID-19 pandemic and its impact on self-reported health,2023,17
+10.1016/j.apnr.2024.151781,ok,W4392698961,"Personality characteristics of Dutch nurse anesthetists and surgical nurses when compared to the normative Dutch population, a quantitative survey study",2024,3
+10.1007/s12428-024-1974-x,ok,W4393385544,Betere zorg,2024,0
+10.1111/1475-6765.12593,ok,W4367052331,"Those were the what? Contents of nostalgia, relative deprivation and radical right support",2023,33
+10.5553/nts/266665532025001,ok,W4410957277,"De strafbeschikking in beweging: van dagvaarden tenzij, naar de strafbeschikking tenzij?",2025,0
+10.31234/osf.io/kqhf7_v2,ok,W4411436484,Adversity is associated with lower general processing speed rather than executive functioning,2025,0
+10.31234/osf.io/a8u47,ok,W4406135666,Inconclusive evidence for associations between adverse experiences in adulthood and working memory performance,2025,2
+10.5117/tva2025.2.009.veer,ok,W4413036869,Democratie in woelige tijden,2025,0
+10.1332/239788221x16890880355113,ok,W4386188600,Informal care trajectories over the lifecourse in the Netherlands,2023,8
+10.21827/62728264763fd,ok,W4285211105,"Focus, vertrouwen, veerkracht: en andere mentale aspecten van sport en presteren",2022,0
+10.1016/j.jvb.2024.104044,ok,W4402044263,Enhancing person-job fit: Who needs a strengths-based leader to fit their job?,2024,20
+10.1016/j.heliyon.2024.e27610,ok,W4392640657,Explaining uncertainty in women's fertility preferences,2024,6
+10.1016/j.puhe.2024.10.023,ok,W4403850387,"Residual loneliness in the Netherlands after the COVID-19 pandemic: An application of the single interrupted time series design with pre-, peri- and post-pandemic observations",2024,13
+10.1093/geront/gnae138,ok,W4403423184,Busy Ethic: A Validation of a Popular Concept,2024,0
+10.1111/spc3.12895,ok,W4387374721,Changes in loneliness and coping strategies during COVID‐19,2023,0
+10.5553/benm/138900692025052002003,ok,W4410734710,"Steun voor de rechtsstaat, zolang hij meewerkt",2025,0
+10.56675/wbiha,ok,W4409344108,Werkboek inhoudsanalyse,2025,0
+10.31219/osf.io/rjfzn,ok,W4397034777,Werkboek Inhoudsanalyse,2024,0
+10.47671/tvg.80.24.095,ok,W4403138220,"Prioriteiten in de bestrijding van antimicrobiële resistentie (AMR): heeft de Europese Unie, voorgezeten door België, stappen gezet op weg naar de Algemene Vergadering van de Verenigde Naties?",2024,2
+10.1016/j.jvb.2022.103825,ok,W4310013036,In need of opportunities: A within-person investigation of opposing pathways in the relationship between job insecurity and participation in development activities,2022,23
+10.1007/s12654-022-0847-2,ok,W4283512310,'Zorg komt niet als water uit de kraan',2022,0
+10.3386/w32107,ok,W4392145537,"Keeping Up with the Jansens: Causal Peer Effects on Household Spending, Beliefs and Happiness",2024,6
+10.18174/676536,ok,W4406224344,Kansrijke maatregelen om de ammoniakemissie bij Beter Leven keurmerk 1 ster vleeskuikens te verlagen : Deskstudie naar mogelijkheden om via technische en voer- en managementmaatregelen de emissie van ammoniak te verlagen uit stallen voor vleeskuikens gehouden volgens de criteria van Beter Leven keurmerk 1 ster,2024,0
+10.5117/mem2023.1.004.empe,ok,W4323042778,Wat doet je moeder? De invloed van moeders beroepsstatus op de onderwijsuitkomsten van haar kinderen en hoe die zich verhoudt tot vaders invloed,2023,1
+10.1017/s1475676525100194,ok,W4414661878,Citizen perceptions of ideological bias in public service institutions: A cross-institutional analysis in five countries,2025,2
+10.1055/a-2665-2400,ok,W4413054318,Venous Thrombosis Associated with Different Types of SARS-CoV-2 Vaccines in the Netherlands—Results of the TERA Case-Control Study,2025,3
+10.1007/s10728-025-00533-2,ok,W4412779987,Construct Validity of the Measurement Tools PH42 and I.ROC12 to Measure Positive Health in a General Population,2025,2
+10.1101/2024.02.21.24301090,ok,W4401814229,Measuring Positive Health using the My Positive Health (MPH) and Individual Recovery Outcomes Counter (I.ROC) Dialogue Tools: A Panel Study on Measurement Properties in a Representative General Dutch Population,2024,8
+10.5117/dnk2023.1.005.woud,ok,W4381804401,Wie zijn de vijf flinkste mannen of vrouwen van ons land?,2023,0
+10.1016/j.lanepe.2025.101434,ok,W4413975246,Effect of a national mental health campaign on population mental resilience in the Netherlands: a retrospective longitudinal cohort analysis using a dynamical systems perspective,2025,0
+10.1080/14719037.2024.2392131,ok,W4401974627,"Performance information, expectations and satisfaction with public service delivery in the context of co-production initiatives",2024,15
+10.1177/00332941241300949,ok,W4404579832,The Influence of the Big Five Personality Factors on Mental Health Before and During the COVID-19 Pandemic: A Prospective Study,2024,1
+10.1080/20008066.2025.2514888,ok,W4411458286,Does the emotional burden of participating in trauma-related surveys discourage future participation? A population-based study,2025,2
+10.1016/j.janxdis.2023.102714,ok,W4366824884,"The impact of pre- and post-trauma financial problems on posttraumatic stress symptoms, anxiety and depression symptoms, and emotional support: A prospective population-based comparative study",2023,25
+10.1111/pcn.13725,ok,W4401714987,The effects of potentially traumatic events on the recovery from pre‐existing anxiety and depression symptomatology and the risk of PTSD,2024,3
+10.1016/j.jad.2023.06.042,ok,W4381988000,"The prevalence of anxiety and depression symptoms (ADS), persistent and chronic ADS among the adult general population and specific subgroups before and during the COVID-19 pandemic until December 2021",2023,5
+10.1016/j.jad.2025.03.133,ok,W4408974214,"Recent potential traumatic events and high PTSD-symptom levels are not associated with an increase in negative beliefs or expectations about oneself: A prospective, comparative, population-based study",2025,1
+10.1177/00207640221140287,ok,W4310701597,To what extent do post-traumatic mental health and other problems reflect pre-existing problems? Findings from the prospective comparative population-based VICTIMS-study,2022,13
+10.5117/tva2023.2.009.veld,ok,W4379514044,"Van mogen, naar moeten, naar willen: Thuiswerkbeleid, ervaringen en lessen van de FNV voor, tijdens en na corona",2023,1
+10.18174/579406,ok,W4313063033,Effect van verbredingsactiviteiten op het inkomen in de land- en tuinbouw,2022,2
+10.1177/14779714241267739,ok,W4402546995,Do household and childcare task divisions prospectively predict engagement in time-costly continuing education among Dutch working mothers and fathers?,2024,0
+10.5553/bw/016571942022076002004,ok,W4281850599,COVID-19 en de rally rond de Nederlandse vlag: vertrouwen in de politiek tijdens de eerste golf (maart-mei 2020),2022,0
+10.1016/j.dib.2024.110346,ok,W4392962596,"Data of the multi-wave population-based prospective Victims in Modern Society (VICTIMS) study on potential traumatic events, social support, mental health, coping self-efficacy and services use",2024,8
+10.1016/j.paid.2025.113201,ok,W4409212415,External locus of control as predictor of conspiracy beliefs: A test of main effect and interaction with life dissatisfaction,2025,0
+10.1016/j.socscimed.2024.117502,ok,W4404322069,‘No manner of hurt was found upon him’. The role of religiousness in the mental health effect of job insecurity,2024,3
+10.5553/rdw/138064242023044001004,ok,W4384068344,Recht spreken én schrijven,2023,2
+10.5553/jv/016758502025051004006,ok,W7116757421,DJI en de wetenschap: een duurzame verbintenis met wrijving,2025,0
+10.5117/tva2022.3.001.lipp,error: 502 Server Error: Bad Gateway for url: https://api.openalex.org/works/https://doi.org/10.5117/tva2022.3.001.lipp?mailto=angelica%40odissei-data.nl,,,,
+10.1016/j.actpsy.2023.103847,ok,W4318761772,"The General Factor of Personality (GFP) is associated with higher salary, having a leadership position, and working in a social job",2023,7
+10.5553/bk/092733872022031001009,ok,W4220672326,Wees eerlijk over terugtredende overheid,2022,0
+10.1080/07036337.2024.2352765,ok,W4398170663,Filling the EU information deficit mitigates negative EU attitudes among the least knowledgeable. Evidence from a population-based survey experiment,2024,5
+10.1080/14616696.2023.2275593,ok,W4388551378,Does the prospect of further sovereignty loss fuel Euroscepticism? A population-based survey experiment,2023,0
+10.1057/s41599-022-01064-0,ok,W4211098370,Financial wealth and early income mobility,2022,3
+10.1007/s10433-024-00826-w,ok,W4403156439,Do middle-aged and older people underreport loneliness? experimental evidence from the Netherlands,2024,8
+10.1017/s0144686x25100135,ok,W4413066799,What do middle-aged and older people consider important dimensions of quality of life in later adulthood? Insights from a vignette experiment in the Netherlands,2025,0
+10.5117/tva2025.1.002.brak,ok,W4410730241,De nieuwe armoedemeting in Nederland,2025,0
+10.5553/tvc/0165182x2023002,ok,W4360613483,Rehabilitatiebewijs en de rol van risico- en beschermende factoren in VOG-uitspraken,2023,0
+10.1017/s147474722200021x,ok,W4302303859,"Trust in pension funds, or the importance of being financially sound",2022,8
+10.1007/s41184-023-2261-7,ok,W4391815841,Onderscheid maken als EBP-coach,2024,0
+10.3389/fpsyt.2023.1212568,ok,W4383821402,Dutch workers’ attitudes towards having a coworker with mental health issues or illness: a latent class analysis,2023,3
+10.18174/649869,ok,W4392250981,Sociaal-economische effecten van het Programma Stikstofreductie en Natuurverbetering op de landbouw en agroketen : Gevolgen voor materiele welvaart en werkgelegenheid,2024,0
+10.5117/mem2023.1.002.veen,ok,W4323042732,Socialisatieproces of machtspositie? Een onderzoek naar het relatieve belang van het cultureel kapitaal van de moeder en de vader voor het opleidingsniveau van het kind,2023,0
+10.18332/tpc/190617,ok,W4400586418,Financial incentives to stop smoking: Potential financial consequences of different reward schedules,2024,3
+10.1016/j.socec.2024.102306,ok,W4403846892,‘Update Bias’: Manipulating past information based on the existing circumstances,2024,0
+10.1007/s11238-023-09957-5,ok,W4388231140,Gender differences in temporal stability and decay in stability of trust,2023,0
+10.31235/osf.io/h8mnj_v1,ok,W4417422201,Stable or variable distrust? Disentangling the relationship between political trust and electoral behavior,2025,2
+10.1007/s41187-023-1870-7,ok,W4317749695,Waar leiderschap om draait,2023,0
+10.61868/njhe.v10i7.154,ok,W4388809816,LIFE LONG LEARNING FOR RESKILLING BY HOUSEHOLDS HEADS TOWARDS RETIREMENT FOR SUSTAINABLE SURVIVAL: HOME ECONOMICS PERSPECTIVE,2022,0
+10.1007/s10663-024-09605-3,ok,W4391945544,Positive and negative health events and trust,2024,3
+10.2139/ssrn.4007903,ok,W4206156424,Stability of Pro-Sociality and Trust Amid the Covid-19: Evidence Based on the Panel Data from the Netherlands,2022,2
+10.1093/geroni/igae098.2700,ok,W4405965009,AGE AND GENDER IMPACTS ENDORSEMENT OF NOSTALGIA ACROSS SEVEN YEARS,2024,1
+10.31234/osf.io/fbjr6,ok,W4396750195,The Influence of Social Support Received in Online and Offline Contexts on Satisfaction With Social Support and Satisfaction With Life: A Longitudinal Study,2024,1
+10.1177/14789299221124735,ok,W4300961360,Does the Election Winner–Loser Gap Extend to Subjective Health and Well-Being?,2022,28
+10.2139/ssrn.4557948,ok,W4386314130,The Effects of COVID-19 on Self-Esteem: Panel Data from the Netherlands,2023,0
+10.1080/02723638.2025.2501456,ok,W4410463470,Do you see it how I see it? Differences in neighborhood perceptions explained by individuals’ socioeconomic characteristics and trust attitudes,2025,2
+10.2139/ssrn.5491766,ok,W4414192432,Regional Disparities in Gender Wage Gaps: Evaluating Bhutan's Minimum Wage Policy,2025,0
+10.5553/tvrrb/187977842024015002002,ok,W4401621754,‘Op mijn verzoek’,2024,0
+10.21275/sr22510204532,ok,W4404384061,Correlation between Personality Traits and Achievement Motivation in Chinese Wushu Athletes,2022,0
+10.4324/9781032636702,ok,W4403770367,Remedies in Construction Law,2024,0
+10.1080/15564886.2023.2301307,ok,W4390831746,The Mediating Effects of Extended Family Support and Relationship Change on Romantic Bonding and Support in Romantic Relationship Among Incarcerated Men,2024,7
+10.1007/s10964-024-02093-5,ok,W4403348844,An Investigation of the Longitudinal Bidirectional Associations Between Interactive Versus Passive Social Media Behaviors and Youth Internalizing Difficulties. A Within-Person Approach,2024,16
+10.54254/2753-7048/2024.24357,ok,W4411776682,Does Public Education Promote Gender Equality? Evidence from 8 Countries of Different Income and Religion Levels,2025,0
+10.5117/tvgn2024.1.011.swie,ok,W4394884153,Homopolitiek in Nederland (1966-2023),2024,0
+10.5117/tet2025.2.005.swan,ok,W4413493870,Het Genneps Dialectwoordenboek en de stand van zaken van de dialectlexicografie in Nederland,2025,0
+10.1016/j.envpol.2023.122540,ok,W4386649903,Changes in neighborhood physical and social environments matter for change in mental health: Longitudinal evidence from Dutch panel data,2023,16
+10.4054/demres.2023.49.19,ok,W4386502095,Describing the Dutch Social Networks and Fertility Study and how to process it,2023,2
+10.1016/j.envres.2024.120481,ok,W4404802450,Longitudinal mental health associations of relocation to supportive versus adverse neighborhood environments in the Netherlands,2024,3
+10.1093/law-mpeccol/e801.013.801,ok,W4404852848,Opposition Party,2024,0
+10.18174/659601,ok,W4402985136,Het gebruik van pluis in de Nederlandse visserij en aanbevelingen voor vervolgstappen om dit gebruik te reduceren,2024,0
+10.18174/670518,ok,W4402642063,Wettelijke Audit BasisregistratieTopografie 2023 : resultaten van de vijfde externe audit op de kwaliteit van de BRT,2024,0
+10.5553/henr/246893352025009001002,ok,W4416913946,Wonen met een beperking – autonomie en participatie centraal bij het recht op wonen volgens het VN-verdrag Handicap,2025,0
+10.4324/9780367198459-reprw12-1,ok,W4283019682,Collective Nostalgia,2022,2
+10.5553/pa/259027332024030004013,ok,W4412518008,Niet (alleen) de patiënt centraal!,2024,0
+10.1057/s41269-023-00286-7,ok,W4320040162,Minding the political engagement gap: how discrimination and religion impact Dutch voters with an immigrant background,2023,26
+10.3389/fpos.2024.1390662,ok,W4398780287,"Our gloomy future and glorious past: societal discontent, national nostalgia and support for populist radical-right parties in the Netherlands",2024,8
+10.1161/strokeaha.123.042617,ok,W4380870855,Personality and Risk of Incident Stroke in 6 Prospective Studies,2023,26
+10.1093/geronb/gbae051,ok,W4393356213,Personality and Risk of Arthritis in Six Longitudinal Samples,2024,9
+10.1177/19485506231207673,ok,W4388090106,Don’t Drag Me Down: Valence Asymmetry in Well-Being Co-Development in Couples,2023,1
+10.5152/neuropsychiatricinvest.2021.03-08,ok,W4206609327,"Investigation of Anxiety Levels of Inpatients with a Diagnosis of COVID-19 and Depression, Hopelessness, Anxiety, and Perceived Social Support Levels of Their Parents",2022,1
+10.1007/s10680-023-09677-0,ok,W4386346886,Implications of the Theory of Basic Human Values for the Second Demographic Transition: Interdependence and Individualism in the Era of Self-Fulfillment,2023,5
+10.1007/s42001-024-00275-6,ok,W4394785467,Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer),2024,6
+10.2139/ssrn.4807701,ok,W4402532910,Age and gender differences in the value development of Dutch adults in 11 years of longitudinal data,2024,5
+10.31219/osf.io/3pqhs,ok,W4413110522,Constructing Schwartz values framework using the Rokeach values survey: Human value measurement in the longitudinal internet survey for social sciences,2025,4
+10.1016/j.ijid.2024.107048,ok,W4394681651,Who develops long COVID? Longitudinal pre-pandemic predictors of long COVID and symptom clusters in a representative Dutch population,2024,18
+10.31235/osf.io/xekps,ok,W4223999753,Psychological Barriers for Take-Up of Health Care Benefits and Child Support Benefits in the Netherlands,2022,1
+10.1177/09589287231164343,ok,W4362700979,Psychological barriers to take-up of healthcare and child support benefits in the Netherlands,2023,3
+10.1111/manc.12485,ok,W4397023317,"Childcare, work from home and the evolution of mental health in times of COVID‐19: Evidence from the Netherlands",2024,1
+10.1057/s41269-024-00346-6,ok,W4399391025,"Introduction: extremes and divides in electoral politics, the Dutch 2021 elections in particular",2024,2
+10.1093/esr/jcad072,ok,W4388686339,Populist partner: the influence of partner characteristics on populist radical right voting,2023,5
+10.1111/codi.16993,ok,W4396508128,Dissecting the surgeon's personality: cross‐cultural comparisons in Western Europe,2024,3
+10.1177/10731911221149949,ok,W4319462029,The Predictive Validity of Item Effect Variables in the Satisfaction With Life Scale for Psychological and Physical Health,2023,7
+10.31234/osf.io/v3pwc,ok,W4386592515,Using within-person change in three large panel studies to estimate personality age trajectories.,2023,26
+10.1016/j.surge.2025.02.003,ok,W4407658359,Surgeon personality diversity across generations and subspecialties,2025,5
+10.38158/kjeus.28.3.2,ok,W4390582113,The impact of the size and the layout of living space on subjective well-being-cases from the UK and South Korea,2023,0
+10.1111/fire.12409,ok,W4401276848,Does time heal all wounds? Psychological responses to trauma and financial risk‐taking,2024,2
+10.5040/9781666994629.ch-4,ok,W4410674520,The Relationship between Income Inequality and Economic Growth in Developing Economies,2022,0
+10.1177/15270025251396496,ok,W4416382558,The Well-Being Value of Sport for Loneliness and Depression,2025,1
+10.1080/1369183x.2023.2252993,ok,W4386583325,Who is aging out of place? The role of migrant selectivity in international retirement migration,2023,11
+10.61190/fsr.v33i2.4067,ok,W4411138598,"Consumer Margin Use: Understanding the Role of Peer Influence, Investment Literacy, and Age",2025,0
+10.5117/tva2024.2.001.sand,ok,W4399530520,Dynamiek op de Nederlandse arbeidsmarkt: De focus op onderbenutting,2024,0
+10.1080/01402382.2024.2336436,ok,W4396921171,Mainstream partisans’ affective response to (non) cooperation with populist radical right parties,2024,8
+10.1093/esr/jcad041,ok,W4383618950,A distaste for insecurity: job preferences of young people in the transition to adulthood,2023,11
+10.1016/j.alcr.2023.100562,ok,W4385392074,Life-course insecurity among young adults: Evidence for variation by employment status?,2023,12
+10.1016/j.enpol.2023.113683,ok,W4383163204,Which (co-)ownership types in renewables are associated with the willingness to adopt energy-efficient technologies and energy-conscious behaviour? Data from German households,2023,13
+10.1016/j.crbeha.2025.100191,ok,W4415215803,Examining associations of general susceptibility to misinformation and health behaviors in the Netherlands,2025,0
+10.1038/s41598-025-21452-1,ok,W4415619997,Trust in institutions and misinformation susceptibility both independently explain vaccine skepticism,2025,9
+10.1007/s12480-025-2727-y,ok,W4416991797,"‘Het is heftig om te horen, maar het gaat niet om mij'",2025,0
+10.3389/frsps.2023.1303157,ok,W4389570311,Ideological predictors of anti-science attitudes: exploring the impact of group-based dominance and populism in North America and Western Europe,2023,6
+10.1186/s12939-024-02172-w,ok,W4396561720,Quantifying reciprocal relationships between poverty and health: combining a causal loop diagram with longitudinal structural equation modelling,2024,9
+10.1080/00036846.2023.2257030,ok,W4387503280,Gender norms and the child penalty: evidence from the Dutch bible belt,2023,6
+10.1057/s41269-025-00391-9,ok,W4412008415,How populist parties fuel science skepticism: Evidence from a 15-year panel study,2025,4
+10.2139/ssrn.4114659,ok,W4285299304,Can Public Policy Increase Paternity Acknowledgment? Evidence from Earnings-Related Parental Leave,2022,0
+10.5117/mem2024.2.004.rast,ok,W4399285119,"Alleenstaande moeder, dubbele rol: Het verschil in effect van opleidingsniveau tussen alleenstaande moeders en moeders met partner op de depressieve symptomen van het volwassen kind",2024,0
+10.31235/osf.io/axz8c,ok,W4405566941,Care for thy neighbor. A study of neighbors’ caregiving intentions by likelihood of reciprocity and previous caregiving experience in the Netherlands,2024,0
+10.1177/08997640241241323,ok,W4394850020,Why Neighbors Would Help: A Vignette Experiment on Reciprocity in Informal Helping,2024,8
 10.31219/osf.io/zq483,ok,W4382763101,Strategies of informal caregivers to adapt paid work,2023,16
-10.31235/osf.io/twjaq,ok,W4382195745,"Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood",2023,17
-10.3233/SW-2012-0081,ok,W1494637579,TheSoz: A SKOS representation of the thesaurus for the social sciences,2013,49
-10.3368/jhr.0424-13521R2,ok,W4414143052,Exposure to Natives and Cultural Assimilation,2025,0
-10.3390/ijerph21060767,ok,W4399672946,Does School Health Promotion Have Additional Value for Educational Performance? A Repeated Cross-Sectional Multilevel Study,2024,1
-10.3390/ijerph21081073,ok,W4401613150,"School Health Promotion, the Body Mass Index z-Score, and Psychosocial Health in Primary Schools of the Netherlands",2024,1
-10.48550/arXiv.2402.00705,ok,W4394785467,Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer),2024,6
-10.48550/arXiv.2411.12451,ok,W4404573906,Empirical Privacy Evaluations of Generative and Predictive Machine Learning Models -- A review and challenges for practice,2024,0
-10.48550/arXiv.2501.05590,ok,W4406317075,Negative Ties Highlight Hidden Extremes in Social Media Polarization,2025,0
-10.48550/arXiv.2502.02321,ok,W4407186300,Fostering Data Communities -- perspective from a Data Archive Service Provider,2025,0
-10.48550/arXiv.2502.20945,ok,W6948171471,Metadata-driven table union search: leveraging semantics for restricted access data integration,2026,1
-10.48550/arXiv.2504.05976,ok,W4411116625,A Knowledge Base for Arts and Inclusion - The Dataverse Data Archival Platform as a Knowledge Base Management System Enabling Multimodal Accessibility,2025,0
-10.48550/arXiv.2505.11633,ok,W4417299781,Chatting with Papers: A Hybrid Approach Using LLMs and Knowledge Graphs,2025,1
-10.48550/arXiv.2506.22993,ok,W4416510067,Beyond Parents? Prediction Gaps in University Completion Using Population-Scale Networks and Flexible Machine Learning,2025,0
-10.48550/arXiv.2508.21236,ok,W4417408837,Population-scale network embeddings expose educational divides in network structure related to right-wing populist voting,2026,0
-10.48550/arXiv.2509.22136,ok,W4416830752,"Persistent Gaps, Partial Gains: A Population-Level Study of COVID-19 Learning Inequalities in the Netherlands",2025,1
-10.5117/MEM2021.3.003.ANDR,ok,W3199375143,De invloed van de coronacrisis op de relatieve verdeling van zorg door moeders en vaders,2021,7
-10.5281/ZENODO.10286752,ok,W4393472346,Aligning Data Management Plans with Community Standards using FAIR Implementation Profiles,2023,1
-10.5281/zenodo.10694246,ok,W6892497275,"Ontologies for the social sciences: what they are, and why we need them",2024,0
-10.5281/zenodo.11044890,ok,W6892630944,Memo The ODISSEI Portal & The DANS Data Station Social Sciences and Humanities,2024,0
-10.5281/zenodo.14169625,ok,W6892960831,Unlocking Potential with the Dataverse Data Platform,2024,0
-10.5281/zenodo.14507120,ok,W6968006386,The Next Generation of Data Management with Artificial Intelligence,2024,0
-10.5281/zenodo.14622246,ok,W6893337331,ODISSEI and Semantic search with multilingually in data repositories,2024,1
-10.5281/ZENODO.15261773,ok,W6911944104,Comparing FAIR Assessment Tools and their Alignment with FAIR Implementation Profiles using Digital Humanities Datasets,2025,0
-10.5281/zenodo.4302096,ok,W4317470070,The ODISSEI Portal: Linking Survey and Administrative Data,2020,2
-10.52825/cordi.v1i.393,ok,W4386546620,Open Data Infrastructure for Social Science and Economic Innovations (ODISSEI),2023,0
-10.7717/peerj-cs.1038,ok,W4285987923,Aligning restricted access data with FAIR: a systematic review,2022,16
-10.1016/j.jacr.2020.09.042,ok,W3093064335,Artificial Intelligence in Screening Mammography: A Population Survey of Women’s Preferences,2020,105
+10.1177/09500170251348856,ok,W4413301835,Wage Premium or Wage Penalty? Gendered Long-term Wage Development of Family Caregivers,2025,1
+10.1002/casp.70042,ok,W4406244893,Exploring the Morality of Tax Morale,2025,3
+10.31235/osf.io/gzft9_v1,ok,W4415596590,Fostering Skills and Relief: Positive Spillover Effects Between Unpaid Caregiving and Paid Work,2025,0
+10.36392/actaneerl/2022/19/6,ok,W4394699828,Economisch belang en persoonlijk voorkeur,2023,0
+10.31234/osf.io/f95nb,ok,W4382539575,The ephemeral nature of wording effects.,2023,9
+10.1016/j.foodqual.2023.104914,ok,W4380740454,Social class differences in dietary intake are mediated by the relationship between health and taste: Findings from a cross-sectional and longitudinal study,2023,11
+10.1080/13668803.2024.2443614,ok,W4405829602,Women’s stress during the COVID-19 pandemic in Germany and the Netherlands: a longitudinal perspective on the role of part-time employment and parenthood for different educational groups,2024,0
+10.1080/13229400.2023.2181849,ok,W4322100945,Fathers stepping up? A cross-national comparison of fathers’ domestic labour and parents’ satisfaction with the division of domestic labour during the COVID-19 pandemic,2023,51
+10.1037/e509082025-001,ok,W4414060234,Dark tetrad personality traits seen in politicians and willingness to vote,2023,0
+10.1017/s1755773923000115,ok,W4365513184,Who benefits from the social democratic march to the middle?,2023,5
+10.5553/sjb/056266842023060002006,ok,W4387881473,De Wet Arbeidsbescherming Gezin: verrijking van het stelsel van sociale zekerheid,2023,0
+10.2139/ssrn.4976817,ok,W4403189967,Noncognitive Determinants of Retirement Saving Behavior,2026,0
+10.1017/s0007123424000590,ok,W4407259986,"Why Anxious People Lean to the Left on Economic Policy: Personality, Social Exclusion, and Redistribution",2025,2
+10.1016/j.socscimed.2025.117676,ok,W4406142865,Loneliness is positively associated with populist radical right support,2025,15
+10.2139/ssrn.5366039,ok,W4413208203,The Impact of Working Hours on Innovation: Lessons from the 2018 Korean Working-Hours Reform,2025,0
+10.1111/1475-6765.12561,ok,W4306412066,Distrusting democrats: A panel study into the effects of structurally low and declining political trust on citizens’ support for democratic reform,2022,35
+10.31715/2025.12,ok,W4417029749,Leven met verandering in zee en kustgebieden,2025,0
+10.1093/rcfs/cfae011,ok,W4394975238,Trust in Traditional Finance and Consumer Fintech Adoption,2024,11
+10.64628/ab.uk7v6t3uj,ok,W4414532652,Parental leave reform needs to consider small and medium businesses,2025,0
+10.1007/s11673-024-10368-6,ok,W4401700811,Retrospective Radiology Research: Do We Need Informed Patient Consent?,2024,5
+10.31234/osf.io/6r8y9,ok,W4294385349,REMOVED DUE TO POLICY VIOLATIONS,2022,2
+10.1111/1468-4446.13099,ok,W4396815041,Politicians' high‐status signals make less‐educated citizens more supportive of aggression against government: A video‐vignette survey experiment,2024,2
+10.1080/01402382.2023.2250163,ok,W4386477656,Explaining the educational gradient in trust in politicians: a video-vignette survey experiment,2023,6
+10.1016/j.socec.2024.102319,ok,W4404864645,A longitudinal study on the association between financial scarcity and feelings of societal exclusion,2024,4
+10.31234/osf.io/awvns,ok,W4401011879,Leisure travel and life satisfaction in a Dutch sample,2024,0
+10.1177/10775595231223657,ok,W4391437377,The Role of Psychopathology and Emotion Regulation in the Intergenerational Transmission of Childhood Abuse: A Family Study,2024,2
+10.2139/ssrn.4817554,ok,W4396660953,Loud or Quiet Quitting? The Influence of Work Orientations on Effort and Turnover,2024,11
+10.2139/ssrn.5098532,ok,W4413296798,Clustering Dutch citizens into behavioural phenotypes to understand green energy investment preferences,2025,3
+10.3310/nihropenres.1115229.1,ok,W4402845485,Short and long-term effects of air pollution on cardiovascular disease events,2024,0
+10.21203/rs.3.rs-4767102/v1,ok,W4415221451,First-year growth patterns of preterm infants receiving kangaroo mother care: associations with early life factors and 1-year anthropometry,2025,1
+10.55248/gengpi.6.0325.12162,ok,W4409242173,Financing the Green Economy: The Role of Financial Institutions in Sustainable Development,2025,0
+10.1101/2024.08.26.24312579,ok,W4408804824,Development and cross-validation of a short questionnaire to evaluate self-reported positive health: a cross-sectional panel study of structural validity among a general Dutch population,2025,4
+10.1080/01402382.2025.2481546,ok,W4409436508,Nationalism and political support: longitudinal evidence from The Netherlands,2025,1
+10.1080/10705511.2024.2355579,ok,W4399726464,Joint Effects in Cross-Lagged Panel Research Using Structural Nested Mean Models,2024,8
+10.1177/2192001x251325885,ok,W4408537634,Parenting Stress as a Moderator: Exploring its Role on the Relationship Between Negative Reactivity and Child Mental Health,2025,0
+10.1017/s1742058x23000140,ok,W4387740728,Confronting Racism of Omission,2023,8
+10.1080/10705511.2024.2316586,ok,W4392940097,Causal Effects of Time-Varying Exposures: A Comparison of Structural Equation Modeling and Marginal Structural Models in Cross-Lagged Panel Research,2024,24
+10.36948/ijfmr.2024.v06i04.24466,ok,W4401099972,"A Study on the Relationship Between Attachment Style, Social Anxiety, and Loneliness",2024,0
+10.1093/esr/jcad064,ok,W4388261920,"Cultural capital, network resources, and occupational attainment: a panel study on the intragenerational conversion of cultural resources",2023,7
+10.2139/ssrn.4802685,ok,W4395056247,Determinants of Stock Market Participation,2024,3
+10.29115/sp-2023-0022,ok,W4392356050,Keep the noise down: On the performance of automatic speech recognition of voice-recordings in web surveys,2024,2
+10.1016/j.ssresearch.2023.102855,ok,W4320890083,Cultural talk or cultural walk? Highbrow tastes and network quality,2023,13
+10.1111/inm.70093,ok,W4412654085,Measuring Recovery Using the Individual Recovery Outcomes Counter: A Cross‐Sectional Multi‐Center Study on Structural Validity in Dutch Mental Health Care,2025,1
+10.5117/tvar2025.4.002.kran,ok,W4409280835,WODC-rapport Draagvlak voor de legitieme portie,2025,0
+10.1080/17448689.2023.2255695,ok,W4386750726,Trends in forms of civic involvement in the Netherlands between 2008 and 2020,2023,9
+10.5553/tvp/138820662024027004002,ok,W4405017153,De Hoge Raad geeft de (civiele) vordering benadeelde partij een nieuwe wending,2024,0
+10.2139/ssrn.5692222,ok,W4415828926,Incomplete and Endogenous Take-Up of Unemployment Insurance Benefits,2025,0
+10.48152/ssrp-ydaf-ss44,ok,W4391845476,Reproduction of 'How Terrorism Does (and Does Not) Affect Citizens’ Political Attitudes: A Meta‐Analysis',2024,0
+10.31234/osf.io/6sybe,ok,W4405453364,Co-development of general psychopathology and high-risk personality traits during adolescence,2024,0
+10.1177/08997640251323574,ok,W4408463471,Hop in and Drop Out: How are Changes in the Life Course Related to Changes in Volunteering for Humanitarian Organizations?,2025,6
+10.5553/tvk/1871-41022025021002011,ok,W4412520160,Veilig huis en veilig thuis,2025,0
+10.1016/j.paid.2024.112578,ok,W4391774896,Stress-related growth in the early stages of the COVID-19 pandemic: Evidence from a panel study,2024,5
+10.1111/ssqu.13477,ok,W4405675356,Intergroup Contact Versus Competitive Threat: Does Immigration Change Immigration Votes? Evidence From Switzerland Using Objective Municipality‐Level Panel Data From 2010 to 2020,2024,0
+10.1037/pspp0000535,ok,W4404590738,Values and stress: Examining the relations between values and general and domain-specific stress in two longitudinal studies.,2024,1
+10.1111/apps.12510,ok,W4387520231,The permeation of loneliness into the workplace: An examination of robustness and persistence over time,2023,17
+10.1111/1468-4446.13078,ok,W4390743926,What do stances on immigrants' welfare entitlement mean? Evidence from a correlational class analysis,2024,3
+10.1177/00323217241254711,ok,W4399044959,"How Attitudes on Gender Identity, Sexuality, and Core Populist Radical Right Values Combine in Diverging Ideological Constellations Among Populist Radical Right-Inclined Voters",2024,5
+10.2139/ssrn.4793774,ok,W4395096658,Do ESG Scores Converge Over Time? Empirical Evidence from Listed Us Companies,2024,0
+10.1080/14616696.2023.2272263,ok,W4388483944,Does informing citizens about the non-meritocratic nature of inequality bolster support for a universal basic income? Evidence from a population-based survey experiment,2023,8
+10.2139/ssrn.4965382,ok,W4402737149,Evaluating Machine Learning Methods for Predicting Surface Deposits Across Physiographic Regions in Sweden,2024,1
+10.1080/02699931.2025.2525475,ok,W4412349669,Positivity effects in self-defining memories in men and women across adulthood: different patterns between self-rated affect and content-coded meaning,2025,1
+10.3389/ijph.2024.1606278,ok,W4391605146,Ideal Weight and Weight Discrepancy: A Study of Life Course Trajectories and Intercohort Change in the Netherlands,2024,3
+10.31235/osf.io/3e7bq_v1,ok,W4415105155,"Housing Tenure, Housing Satisfaction, and Fertility Intentions in the Nordic Context of the Early 2020s",2025,0
+10.2139/ssrn.4646871,ok,W4389081242,How Do Rationalism and Socialism Influence Pro-Environmental Behaviors? An Eco-Social Man Framework,2023,0
+10.21203/rs.3.rs-2938300/v1,ok,W4377022250,How Movie-watching Enhanced Subjective Well-being during the COVID-19 Pandemic? —An Explorative Study Based on the Case of Chinese College Students,2023,0
+10.31219/osf.io/xpft3_v1,ok,W4414113909,Modelling non-linear personality change surrounding transitions: A review of statistical approaches,2025,0
+10.20955/wp.2022.025,ok,W4296716480,Lifetime Work Hours and the Evolution of the Gender Wage Gap,2022,1
+10.31234/osf.io/fbh7p,ok,W4366758727,Transactional Effects Between Personality and Religiosity,2023,3
+10.1093/ser/mwad054,ok,W4387327436,"Looking up and down and round and round: a theoretical–empirical, individual-level analysis of income comparisons",2023,3
+10.1093/jeea/jvaf037,ok,W7095002734,Prospect Theory for Intertemporal Choice,2025,0
+10.1007/s11205-025-03564-3,ok,W4409289556,Socialized to (Dis)trust? A Panel Study into the Origins of Dispositional Institutional Trust,2025,9
+10.5553/rdw/138064242024045001004,ok,W4399545995,De juridische emancipatie van slachtoffers van criminaliteit,2024,0
+10.1016/j.paid.2024.112994,ok,W4404992789,Longitudinal analysis of the relation between changes in human values and social attitudes,2024,3
+10.31219/osf.io/7xqkz,ok,W4387655233,Did COVID-19 Boost Populism? Evidence from Early Superspreader Events,2023,2
+10.26481/umarep.2024005,ok,W4404525640,Leren en ontwikkelen in Nederland,2024,0
+10.1177/0034673x231215275,ok,W4388943489,Explanations for Individual Secularization: Exploring the Effects of Life Course Events on Religious Decline in the Netherlands Between 2009 and 2020,2023,3
+10.31234/osf.io/82wyq,ok,W4401633412,The Well-Being Costs of Informal Caregiving,2024,2
+10.31234/osf.io/6a2zw_v1,ok,W4408145159,Informal care and personality: Selection and socialization effects,2025,1
+10.21428/cb6ab371.b2e07721,ok,W4403708085,‘Where is the Justice?’ Unauthorized Migrants’ Perceptions of the Legitimacy of the Dutch Immigration System,2024,2
+10.2139/ssrn.4769908,ok,W4393147097,Child Penalties and the Gender Gap in Home Production and the Labor Market,2024,1
+10.1177/02697580231215839,ok,W4390460076,"Risk factors for fraud victimization: The role of socio-demographics, personality, mental, general, and cognitive health, activities, and fraud knowledge",2023,37
+10.5553/rdw/138064242024045002010,ok,W4403387119,Bouwen aan de toegankelijkheid van het recht in Europa,2024,0
+10.1007/s12508-021-00324-9,ok,W4226058916,Bestaansonzekerheid en regionale gezondheidsverschillen,2022,0
+10.1080/1068316x.2025.2468347,ok,W4408473065,Reporting fraud victimization to the police: factors that affect whether victims report,2025,5
+10.1007/s11166-025-09456-8,ok,W4411379946,"Grit, discounting, & time inconsistency",2025,2
+10.1111/aphw.12529,ok,W4391280557,"Eat healthy, feel better: Are differences in employees' longitudinal healthy‐eating trajectories reflected in better psychological well‐being?",2024,1
+10.5414/prx00612,ok,W4412037683,Einfluss von sportlicher Aktivität auf die posturographischen Parameter bei jungen Erwachsenen mit älterer Vergleichsgruppe,2025,0
+10.29115/sp-2024-0017,ok,W4404417898,Data donation of personal physical activity trackers,2024,3
+10.5117/antw2024.1.002.kloo,ok,W4393194256,Polarisatie en de Capitoolbestorming,2024,0
+10.31235/osf.io/fdg8t_v4,ok,W4413374048,"Measuring Physical Activity in Older Adults through Data Donation: Consent Rates, Donation Success, & Bias",2025,0
+10.2139/ssrn.5005853,ok,W4405600913,Intertemporal smoothing and intergenerational risk sharing: The impact on objective utility and subjective attractiveness of retirement savings products,2024,0
+10.1038/s44271-023-00034-9,ok,W4389265860,Respondents with more extreme views show moderation of opinions in multi-year surveys in the USA and the Netherlands,2023,2
+10.29333/ejeph/12781,ok,W4313377720,Differences between self-reports and measurements of weight in a Dutch sample,2023,6
+10.1080/14036096.2022.2149617,ok,W4310223480,A Capability Approach to Evaluating well-being and Equality in Housing: Clear Conceptual Difference but Unclear Practical Difference?,2022,4
+10.7759/s44404-025-06652-2,ok,W4415742128,Climate Risk and Retirement Savings,2025,0
+10.5553/tfpp/295044302024002003002,ok,W4408595204,De impact van het werken met zedenplegers,2024,0
+10.1111/caje.70008,ok,W4410110281,“The risks cannot be compensated”: The willingness to donate DNA for science and its relationship with economic preferences,2025,1
+10.1111/1468-5973.12422,ok,W4283521783,Divergent shifts in fear of terrorism,2022,3
+10.18174/690328,ok,W4409337413,Energiegebruik bij low-chill aardbeien : Teelt van aardbeien in een ETFE kas,2025,1
+10.5117/antw2024.2.007.kemp,ok,W4399681244,Waarom nu? Waarom zo? Materialistische perspectieven op de hedendaagse omgang met sociale categorisatie,2024,0
+10.31234/osf.io/3cm6z,ok,W4390916805,Establishing the Construct and Predictive Validity of Brief Measures of Affective Polarization,2024,0
+10.2139/ssrn.4763666,ok,W4411542918,Partial retirement opportunities and the labor supply of older individuals,2025,3
+10.31234/osf.io/gavuw,ok,W4398182185,Help-Seeking Behavior for Mental Health Concerns among Indian young adults,2024,0
+10.1177/02654075241248829,ok,W4395070605,Examining short-term and long-term effects of self-esteem on relationship satisfaction using a dyadic response surface analysis,2024,3
+10.5642/jhummath.wiwl4676,ok,W4362714912,Mathematics,2023,0
+10.5465/amproc.2023.11181abstract,ok,W4385219451,Role of Work Ethic in the Work-life Satisfaction Relationship: A Longitudinal Moderation Model,2023,0
+10.1016/j.ssmph.2024.101685,ok,W4399069073,The association between parenthood and health: A comparison of people in same-sex and different-sex relationships,2024,7
+10.1093/esr/jcae041,ok,W4404201637,How the educational level of confidants impacts our political attitudes?,2024,2
+10.1002/jcpy.1350,ok,W4362532221,Materialism and life satisfaction relations between and within people over time: Results of a three‐wave longitudinal study,2023,14
+10.2139/ssrn.5116186,ok,W4406966728,Social Media Influencers and Stock Market,2025,1
+10.32920/25418173.v1,ok,W4392858274,Cybersecurity Behavior During COVID-19 and the Impact of Policy Awareness and Demographics on Information Security Behavior and Its Determinants,2024,0
+10.1080/01402382.2021.2017612,ok,W4210264635,Political participation profiles,2022,31
+10.1177/0143831x251331749,ok,W4409599629,"Why are employees most susceptible to automation least likely to retrain? Automation risks and inequalities in learning intention, perceived opportunities, and learning participation among employee groups",2025,5
+10.31234/osf.io/8dq4x_v3,ok,W4414913684,Intuitive thinking is associated with stronger belief in physiognomy and confidence in the accuracy of facial impressions,2025,0
+10.1111/padr.12620,ok,W4393077765,Societal Pessimism and the Transition to Parenthood: A Future Too Bleak to Have Children?,2024,129
+10.21070/ups.7882,ok,W7114785077,Relationship Between Self-Esteem and Psychological Well-Being With Loneliness Among College Students in Sidoarjo,2025,0
+10.5117/go2023.2.002.huls,ok,W4380372255,Self-efficacy en netwerkgedrag onder werkzoekenden: De rol van werkloosheidsstigma en het zoeken van hulpbronnen en uitdagingen,2023,0
+10.54254/2753-7048/13/20230917,ok,W4387938334,Investigating on the Relationship Between Social Media Use and Adolescent Loneliness,2023,1
+10.1016/j.electstud.2024.102868,ok,W4403284495,"The populist impulse: Cognitive reflection, populist attitudes and candidate preferences",2024,6
+10.1016/j.jeconom.2022.01.004,ok,W4213309448,Identification of unobserved distribution factors and preferences in the collective household model,2022,11
+10.54097/hbem.v14i.8927,ok,W4380364513,An Empirical Study on the Interconnections between Money Supply and Housing Price,2023,1
+10.31219/osf.io/krfmu_v1,ok,W4408419632,The past that ties us together: nostalgia strengthens social networks,2025,1
+10.31219/osf.io/3vksb,ok,W4401729363,Does Valuing Happiness Lead to Well-Being?,2024,12
+10.1177/19485506251324692,ok,W4408778260,Friends as Tools: Exploring the Role of Dispositional Greed in Social Relationships,2025,5
+10.2139/ssrn.5105982,ok,W4406666891,The Influence of Personality Traits and Demographic Factors on Cryptocurrency Investment Decisions,2025,0
+10.1002/ejsp.3132,ok,W4404868810,Involvement as a Polarizing Factor?—A Comprehensive Multi‐Method Analysis across Representative Datasets,2024,1
+10.31219/osf.io/g7nry,ok,W4391375453,Nostalgia and Health: A Longitudinal Network Analysis of Different Nostalgic Experiences,2024,6
+10.1016/j.janxdis.2024.102963,ok,W4406062638,Epidemiology of DSM-5 PTSD and ICD-11 PTSD and complex PTSD in the Netherlands,2025,21
+10.2139/ssrn.4338447,ok,W4319722105,Economies of Scope in Data Aggregation: Evidence from Health Data,2023,6
+10.2196/preprints.41479,ok,W4361015771,The Adoption of a COVID-19 Contact-Tracing App: Cluster Analysis,2023,3
+10.28937/978-3-7873-3734-7,ok,W4318069238,Vorlesungen über die Philosophie der Kunst. Anhang. Editorischer Bericht und Anmerkungen,2023,0
+10.24078/onco.1970.1.27651,ok,W4392727435,"‘Zorg voor balans tussen werk, thuis en jezelf’",2024,0
+10.31234/osf.io/47sah,ok,W4398174105,Partial credit trees meet the partial gamma coefficient for quantifying DIF and DSF in polytomous items,2024,1
+10.1080/01402382.2022.2087395,ok,W4283725938,"Does affective polarisation increase turnout? Evidence from Germany, The Netherlands and Spain",2022,81
+10.17549/gbfr.2022.27.5.115,ok,W4308880868,Does stock influencer on social media and financial well-being affect the stock market participation of the young generations during the Covid-19 pandemic?,2022,15
+10.5152/rss.2024.24025,ok,W4402982351,Relationship Between Sports Life Satisfaction and Life Commitment,2024,1
+10.1080/09585192.2024.2429125,ok,W4404494246,"Fueling creativity: HR practices, work engagement, personality, and autonomy",2024,28
+10.56028/aehssr.5.1.227.2023,ok,W4377098968,Social Networks and Political Group Participation: The Chain Mediation Effect of Social Participation and Intrinsic Political Efficacy,2023,0
+10.31234/osf.io/erxf5,ok,W4378611227,Context‐dependent shifts in self‐regulatory personality processes during COVID‐19: Changes in control predict dynamic shifts in goal reengagement capacity,2023,5
+10.1108/cdi-11-2023-0393,ok,W4401914985,“Follow the leader”: how inclusive leaders inspire followers to perform well through strengths use,2024,14
+10.3389/fpsyg.2023.1188728,ok,W4380877930,Sustainable employability and work engagement: a three-wave study,2023,37
+10.1007/s44192-022-00025-y,ok,W4317794537,"COVID-19 and its impact on mental health as a function of gender, age, and income",2023,9
+10.2139/ssrn.4935163,ok,W4414484555,Narrow Framing in Risk Aversion Experiments: Further Evidence From a Wide Replication,2025,1
+10.1177/08902070231213805,ok,W4389051057,The factor structure of Big Five personality trait measures at the between- and within-person levels,2023,14
+10.5117/thg2024.4.006.groe,ok,W4404567297,Heeft Zuidoost-Utrecht er wel of geen tabak van?,2024,0
+10.1016/j.alcr.2025.100671,ok,W4408733126,Gendered life-course trajectories of childcare and informal care in the Netherlands,2025,4
+10.1080/21582041.2022.2155867,ok,W4312219906,Does the COVID-pandemic affect the educational and financial inequality in weekly sport participation in the Netherlands?,2022,8
+10.1111/aphw.70027,ok,W4409436923,"Physical activity, health, and life satisfaction: Four panel studies demonstrate reciprocal effects",2025,6
+10.17104/9783406799402,ok,W4352993395,Die Insel,2023,1
+10.4054/demres.2025.52.24,ok,W4409656743,"Examining the relationships between education, coresidential unions, and the fertility gap by simulating the reproductive life courses of Dutch women",2025,3
+10.21511/ee.16(1).2025.09,ok,W4409295235,Sustainable economic goals based on determinants of resource productivity in the Netherlands and Hungary,2025,8
+10.5553/bw/016571942024078004006,ok,W4404732124,Gluren bij de buren: hoe waarderen Nederlandse en Vlaamse gemeenteraadsleden diverse vormen van burgerparticipatie?,2024,0
+10.2139/ssrn.4839335,ok,W4398231462,Do All Women Shy Away from Competition? Competitive Preferences Among Dutch and Non-Western Females in the Netherlands,2024,0
+10.1177/19485506231167020,ok,W4366829152,When Paying Is (Even More) Painful: Personality-Based Heterogeneity in Consumption Responses to Economic Hardship,2023,3
+10.1007/s12503-023-1647-x,ok,W4387054413,Restless legs syndrome,2023,1
+10.1098/rsos.230988/v2/response1,ok,W4390043413,"Author response for ""A data-driven approach shows that individuals' characteristics are more important than their networks in predicting fertility preferences""",2023,0
+10.1007/s10964-023-01805-7,ok,W4380987735,Perceived Neighborhood Safety and Depressive Symptoms: The Role of Perceived Neighborhood Cohesion and Perceived Control,2023,11
+10.5117/mem2024.2.003.geen,ok,W4399285106,"Van vertrouwen naar actie: Een kwantitatief onderzoek naar de relatie tussen politiek vertrouwen, een persoonlijk verantwoordelijkheidsgevoel en politieke participatie onder jongeren",2024,0
+10.1177/03611981231185141,ok,W4385706245,Identifying the Nature of Travel by Different Transport Modes as Consummatory or Instrumental,2023,5
+10.1007/s00199-022-01421-9,ok,W4214690341,An Algebraic Approach to Revealed Preference,2020,1
+10.1016/j.irfa.2023.102673,ok,W4366524897,Basic debt literacy and debt behavior,2023,24
+10.1177/00377686241260197,ok,W4399867212,What can women in classical sociology teach us about contemporary sociology of religion?,2024,2
+10.1093/oep/gpaf015,ok,W4410266278,"You’ll never walk alone: unemployment, social networks and leisure activities",2025,2
+10.2139/ssrn.4625456,ok,W4410266278,"You’ll never walk alone: unemployment, social networks and leisure activities",2025,2
+10.3386/w34231,ok,W4414192471,Happier at Work? The Impact of Working at an Employee-Owned Firm and Working from Home on Job Satisfaction,2025,0
+10.2139/ssrn.5051180,ok,W4405360579,A machine learning ensemble approach to predict financial markets manipulation,2024,1
+10.1177/00846724251321011,ok,W4409165196,Religion and health in the Netherlands: Disentangling underlying pathways,2025,0
+10.21203/rs.3.rs-4212991/v1,ok,W4408973792,Does personality affect the allocation of resources within households?,2025,0
+10.1086/736550,ok,W4410084905,Making Time to Be Informed: The Child Penalty in Political News Consumption,2025,2
+10.1080/14616696.2023.2271982,ok,W4388126133,Subjective financial insecurity and support for European unification,2023,2
+10.21203/rs.3.rs-3250666/v1,ok,W4388934481,Assessing the impact of socioeconomic status on incidental lung nodules at an urban safety net hospital,2023,2
+10.1177/13684302241248001,ok,W4399435329,Effects of refugee settlement on citizens: A prospective longitudinal study of associations between perceived intergroup threat and mental health,2024,3
+10.2139/ssrn.4898823,ok,W4400936981,Calibration of risk aversion to real pension asset allocation,2024,1
+10.29152/koiks.2023.54.4.613,ok,W4389744423,Relationship between Investment Experience and Welfare Attitudes in Korean Society: Focusing on the Insufficiency of Labor Income and the Importance of Investment Income,2023,0
+10.1007/s12440-023-00197-1,ok,W4376601686,"Relatie tot zichzelf, de baby, anderen en het systeem: een narratieve analyse van de overgang naar het ouderschap voor jonge moeders in pleegzorg",2023,0
+10.1037/t90357-000,ok,W4388628736,Dispositional Greed Scale--Spanish Version,2023,0
+10.21203/rs.3.rs-5982161/v1,ok,W4410419466,"Global burden of mental disorders in 204 countries and territories, 1990–2021: results from the global burden of disease study 2021",2025,227
+10.1186/s40359-023-01118-1,ok,W4362523363,Empirical validation study and psychometric evaluation of the properties of the populist attitudes scale for the portuguese population,2023,5
+10.1111/spsr.12561,ok,W4361214754,Political support through representation by the government. Evidence from Dutch panel data,2023,9
+10.31219/osf.io/yshkt,ok,W4372403073,Who's Afraid of Policy Experiments?,2023,7
+10.1371/journal.pone.0288711,ok,W4386022752,Studying item-effect variables and their correlation patterns with multi-construct multi-state models,2023,1
+10.1177/19485506231169811,ok,W4372342939,No Evidence for Transactional Effects Between Religiosity and Self-Esteem in a Secular Country,2023,4
+10.22605/rrh7185,ok,W4212815377,COVID-19 impact on New Zealand general practice: rural-urban differences,2022,11
+10.2139/ssrn.5099500,ok,W4410359655,"Trust, risk, and ethnic discrimination in a binary trust game",2025,0
+10.5553/ab/0165-13312022102004006,ok,W4229373410,Mediators weten elkaar nog niet te vinden,2022,0
+10.2139/ssrn.4114548,ok,W4285310156,Skewness Expectations and Portfolio Choice,2022,1
+10.21203/rs.3.rs-4804898/v1,ok,W4410739334,Long-term elevated levels of loneliness are linked to lower health-related quality of life in middle-aged Australian women,2025,6
+10.5553/menm/138762362024027004001,ok,W4404086774,"Over tacit collusion tussen banken, killer acquisitions en het verband daartussen",2024,0
+10.1007/s11482-023-10218-4,ok,W4386293780,Part-time Parental Leave and Life Satisfaction: Evidence from the Netherlands,2023,3
+10.2139/ssrn.4834726,ok,W4398152062,Everything in Moderation: Separating State Dependence from Unobserved Heterogeneity between Alcohol and Employment,2024,0
+10.31219/osf.io/zxjcn,ok,W4381252648,Stability and change in political trust: Evidence and implications from six panel studies,2023,111
+10.1002/hec.4614,ok,W3021466621,Mental health over the life course: Evidence for a U‐shape?,2022,9
+10.4054/mpidr-wp-2023-001,ok,W4319599663,Re-partnering and single mothers' mental health and life satisfaction trajectories,2023,2
+10.21825/gt.96143,ok,W4413489729,Onheil afwerende figuren op Gentse gebouwen - Deel 6. ‘Onze’ draak op het Belfort: DE Gentse draak,2023,0
+10.1093/esr/jcae047,ok,W4405387039,Brittle bridges: ethnic segregation across and within civic organizations,2024,5
+10.1093/pnasnexus/pgaf256,ok,W4413910021,"Ingroup preferences, segregation, and intergroup contact in neighborhoods and civic organizations",2025,3
+10.63379/72ax3993,ok,W4408405519,Een uitgestelde keuze voor een vakgebied: Motieven voor het leraarschap bij een brede pedagogische lerarenopleiding,2024,0
+10.2139/ssrn.4589810,ok,W4387867827,The Effects of Hype and Social Preferences on Crypto Investing,2023,1
+10.2139/ssrn.4411343,ok,W4366150907,Sustainable investors: value and values,2023,19
+10.21827/tr.66.1.8-26,ok,W4323668563,Leren lezen. Godsdienstpedagogische richtingwijzers voor het lezen van de Bijbel met jongeren,2023,0
+10.2139/ssrn.5466672,ok,W4414090769,Work Meaning and Fair Wages,2025,0
+10.21825/em.94654,ok,W4411029497,Een feestelijke polyfonie van moraalwetenschappen: een vooruitblik naar aanleiding van de 60ste verjaardag van de opleiding Moraalwetenschappen aan de Universiteit Gent,2023,0
+10.1111/jmcb.70021,ok,W4416552504,Heterogeneity and the Macro‐Economic Effects of Changes in Loan‐to‐Value Limits,2025,0
+10.2139/ssrn.4991798,ok,W4403682954,Work Meaning and the Flexibility Puzzle,2024,6
+10.31219/osf.io/rcvnt,ok,W4402901013,Separated by Degrees: Social Closure by Education Levels Strengthens Contemporary Political Divides,2024,18
+10.1007/s11205-023-03256-w,ok,W4389393178,Who Cares? Issue Salience as a Key Explanation for Heterogeneity in Citizens’ Approaches to Political Trust,2023,6
+10.20542/2307-1494-2023-2-25-41,ok,W4391185480,Vote for aid? How economic interaction with the United States affects countries’ voting patterns at the UN General Assembly,2023,3
+10.1093/oxfordhb/9780197608494.013.30,ok,W4294982962,"Familial Roles, Responsibilities, and Solidarity in Diverse African Societies",2022,5
+10.2307/j.ctv32r02nx.12,ok,W4313697465,Een geïntegreerd voedselbeleid voor een duurzame toekomst,2023,0
+10.1017/9781108903011.022,ok,W4214641105,Strengths and Weaknesses of Microprudential Stress Testing for Financial Institutions,2022,2
+10.4324/9781003393368-12,ok,W4402860772,Singlehood,2024,3
+10.1596/1813-9450-10817,ok,W4400972352,Simulating Welfare Impacts of Changes in the Monthly Social Allowance Scheme and Heating Allowances in Bulgaria,2024,0
+10.33119/978-83-8030-677-6_329-360,ok,W4404339030,Influence of demographic and socioeconomic factors on health in the context of labour market operation,2024,0
+10.4324/9781003376682-3,ok,W4324053823,Open Access: Hate Hurts: Exploring the Impact of Online Hate on LGBTQ+ Young People,2023,0
+10.1093/oso/9780197692851.003.0004,ok,W4398759676,Explaining Government Intervention in Content Moderation,2024,0
+10.1007/978-3-031-48695-1_4,ok,W4389862130,Life and Job Satisfaction in Parallel,2023,0
+10.1007/978-3-031-33390-3,ok,W4385489578,Applied Statistical Learning,2023,10
+10.7767/9783205215950.391,ok,W4311238622,Wahlkampf,2022,0
+10.4324/9780429199936-8,ok,W4400012271,Three tales of welfare chauvinism,2024,0
+10.1093/oso/9780197665312.003.0006,ok,W4391002676,Cut from the Same Cloth,2024,0
+10.1007/978-3-658-48512-2_9,ok,W4412764094,Der Einfluss von mobilitätsbezogenen Arbeitsbedingungen und interessierter Selbstgefährdung auf das Wohlbefinden und das Engagement von Geschäftsreisenden – Studie 1,2025,0
+10.1332/policypress/9781447357025.003.0002,ok,W4406690879,Studying welfare attitudes,2024,0
+10.4324/9781003089612-6,ok,W4310555726,In their own words,2022,4
+10.1007/978-3-658-41728-4_26,ok,W4390355940,Netherlands,2023,0
+10.1007/978-3-031-09905-2_7,ok,W4312298362,"Political Participation of Greek Youth: Exploring Rural, Semi-Urban and Urban Disparities",2022,0
+10.2307/jj.2354066.3,ok,W4375953328,FOREWORD,2023,0
+10.14361/9783839421772-012,ok,W4416395227,„Dissonantes Kulturerbe im Spiegel der Kunst“: Bericht zur Gastdozentur am Frankreichzentrum der Universität des Saarlandes mit Anbindung ans Institut für Kunstgeschichte,2025,0
+10.4324/9781003324638-21,ok,W4384694060,"Self-consciousness, objectivity and practical knowledge",2023,0
+10.1332/policypress/9781529221350.003.0010,ok,W4391119593,Financial Evaluation and the Future of Insurance Society,2023,0
+10.4324/9781003401261-20,ok,W4392380464,Social Connections in Later Life,2024,0
+10.51202/9783181024102-21,ok,W4376460913,Transformation im Kontext von elektrifizierten Antrieben – Eine strategische Mehrebenenanalyse,2023,0
+10.1145/3555009.3555017,ok,W4293791424,What can we learn from recommendations of early-career engineers? Assessing computing and software engineering education using a career monitoring survey,2022,3
+10.1007/978-3-031-17299-1_300863,ok,W4391763145,Crime Risk Perceptions,2023,0
+10.1007/978-3-031-17299-1_300852,ok,W4391763441,Creative Activities,2023,0
+10.1007/978-981-96-5186-3_6,ok,W4410899722,"Comparative Risk Assessment and Systematic Analysis for Global, Regional and National Attributable Burden to Major Risk Factors",2025,1
+10.4324/9781003398486-28,ok,W4415205120,A Beautiful Passing,2025,0
+10.4324/9781003653073-19,ok,W4416273651,Measuring Depression With Relation to Self-Esteem in Adolescents During Post-COVID-19 Pandemic,2025,0
+10.5937/isae25025c,ok,W7114896237,MotiVation Factors in Video GaMes For PredictinG liFe satisFaction in a Pre-adolescent rural PoPulation,2025,0
+10.1016/b978-0-443-28993-4.00019-6,ok,W4405745505,Improving innovative product development: Leveraging data mining for customer knowledge management,2024,0
+10.64076/iedc251119.11,ok,W4416733421,Parenthood. Child–parent relationships,2025,0
+10.1007/s11764-024-01641-z,ok,W4400964472,Prevalence and determinants of sleep problems in cancer survivors compared to a normative population: a PROFILES registry study,2024,9
+10.24135/afl.v13i.699,ok,W4393225407,"GEOPOLITICS, UNCERTAINTY, AND CRYPTOCURRENCY: A LOVE TRIANGLE GONE WRONG",2024,10
+10.1257/mic.20200220,ok,W3005758803,Togetherness in the Household,2023,25
+10.31235/osf.io/x4ku2,ok,W4403866104,Assessing Mobile Instant Messenger Networks with Donated Data,2024,4
+10.52734/rpcv9443,ok,W4413141952,Missed opportunities to improve mental health care,2025,0
+10.1159/000541499,ok,W4402758893,Validation of the 40-Item and 24-Item Short Version of the Person-Centred Obesity Care Instrument for Patients Living with Obesity,2024,0
+10.1111/hex.13954,ok,W4390915810,Perceived weight stigma in healthcare settings among adults living with obesity: A cross‐sectional investigation of the relationship with patient characteristics and person‐centred care,2024,29
+10.1093/intqhc/mzae078,ok,W4401452203,The relationship between person-centred care and well-being and satisfaction with care of patients living with obesity,2024,7
+10.1111/ecca.12448,ok,W4307714816,Parental Childcare with Process Benefits,2022,1
+10.26481/umarof.2024010,ok,W3122710425,Schoolverlaters tussen onderwijs en arbeidsmarkt 2023,2024,1
+10.31234/osf.io/tnea8,ok,W4400894042,Causal Latent Class Analysis with Distal Outcomes: A Modified Three-Step Method Using Inverse Propensity Weighting,2024,4
+10.31234/osf.io/efkv4,ok,W4414535229,Causal Inference for Latent Markov Models Using the Parametric G-Formula,2025,0
+10.2139/ssrn.4755500,ok,W4393151804,The Design of Welfare: Unraveling Taxpayers' Preferences,2024,2
+10.2139/ssrn.4921725,ok,W4414998355,Work meaningfulness and effort,2025,6
+10.1007/s11205-023-03233-3,ok,W4388020305,Job Satisfaction and the ‘Great Resignation’: An Exploratory Machine Learning Analysis,2023,16
+10.4103/nah.nah_107_24,ok,W4408027206,Longitudinal Analysis of the Influence of Personality on Noise Annoyance and Bidirectional Effects between Noise and Health Outcomes,2025,0
+10.1093/sleep/zsae067.0107,ok,W4394979017,0107 Bedtime Procrastination Mediates the Association Between Repetitive Negative Thoughts and Insomnia Symptoms,2024,2
+10.31234/osf.io/9etb8,ok,W4387057672,Perspective-Taking Predicts Success In Coalition Formation,2023,3
+10.7153/mia-2022-25-38,ok,W4289209637,On a disparity between willingness to pay and willingness to accept under the Rank-Dependent Utility model,2022,2
+10.31234/osf.io/bjrhd,ok,W4403793269,"Testing Theories of Threat, Individual Difference, and Ideology: Little Evidence of Personality-Based Individual Differences in Ideological Responses to Threat",2024,4
+10.1016/j.drugalcdep.2023.110327,ok,W4400575265,Parent Influence and Alcohol Use by Youth With Chronic Medical Conditions,2024,0
+10.2139/ssrn.4475579,ok,W4380238676,The Anatomy of Competitiveness,2023,8
+10.1162/rest_a_01439,ok,W4392927912,Can Competitiveness Predict Education and Labor Market Outcomes? Evidence from Incentivized Choice and Survey Measures,2024,25
+10.5553/bsb/266669012023004004008,ok,W4386504149,‘Check your privilege’ in discriminatiezaken,2023,0
+10.2139/ssrn.4688020,ok,W4391492019,Adversarial Economic Preferences Predict Right-Wing Voting,2024,0
+10.1007/s10902-023-00685-9,ok,W4386807343,Subjective Well-Being and Populist Voting in the Netherlands,2023,14
+10.1037/pspp0000551,ok,W4408670675,Terminal decline of satisfaction in romantic relationships: Evidence from four longitudinal studies.,2025,4
+10.1111/roiw.12609,ok,W4288068138,Distributional national accounts for the Netherlands and a comparison with 12 other countries,2022,8
+10.2139/ssrn.4269614,ok,W3201264493,Consumer Time Budgets and Grocery Shopping Behavior,2023,23
+10.5553/tvv/.000076,ok,W4407518301,Recht doen aan de behoeften van cybercrimeslachtoffers: reflecties op de rol van de politie,2024,1
+10.1162/rest_a_00955,ok,W3121146910,Gender and Willingness to Lead: Does the Gender Composition of Teams Matter?,2020,75
+10.18174/684247,ok,W4407224031,Resultaten variabele plantafstand in pootgoed : NPG - Verankering (NP)PL-resultaten in Groningen,2024,0
+10.1016/j.chiabu.2024.106699,ok,W4392183039,The role of emotion recognition in the intergenerational transmission of child maltreatment: A multigenerational family study,2024,8
+10.5553/tvt/187987052024015002006,ok,W4400010218,Politieke invloed op toezichthouders,2024,0
+10.5553/tvc/0165182x2025067001003,ok,W4411909760,Ethiek en de inclusie van kwetsbare groepen in victimologisch onderzoek,2025,0
+10.1080/28355245.2024.2355084,ok,W4400583546,"A longitudinal analysis of adherence to COVID-19 preventive measures, media use, and risk perceptions in a Dutch population-based sample",2024,0
+10.5117/tva2024.2.003.boke,ok,W4399531474,Kenmerken van het onbenut arbeidspotentieel: Onderwijs en arbeidsverleden,2024,0
+10.1093/imammb/dqad009,ok,W4390531621,A Model of Individual BMI Trajectories,2024,4
+10.1007/s00181-023-02445-3,ok,W3123371576,Language proficiency of migrants: the relation with job satisfaction and skill matching,2023,15
+10.1111/jopy.12881,ok,W4386407287,Psychological change before and after religious conversion and deconversion,2023,12
+10.1177/09567976231185129,ok,W4386910334,Self-Esteem and Income Over Time,2023,19
+10.1007/s10902-023-00663-1,ok,W3128834838,Informal Caregivers and Life Satisfaction: Empirical Evidence from the Netherlands,2023,4
+10.31224/4908,ok,W4412536586,Neural Network-Based Detection of Phishing URLs Using Embeddings,2025,0
+10.31235/osf.io/wcktu,ok,W4383198571,Does inequality erode political trust?,2023,10
+10.1017/pls.2025.10004,ok,W4411498488,"Poor mental health does not always reduce political participation: Wrong assumption, wrong samples, or wrong measures?",2025,2
+10.1186/s12877-025-06231-x,ok,W4412807805,Two-thirds of older people is interested in information meetings on end-of life care to stimulate advance care planning: a national survey,2025,1
+10.5117/tvg2024.2.005.bek,ok,W4400559105,Sociale ongelijkheid in een hoogmobiele wereld,2024,0
+10.2139/ssrn.5194798,ok,W4408866832,Inequality Along the European Green Transition,2025,3
+10.1093/geroni/igaf122.1343,ok,W7118063564,The Employment Consequences of Disability After Age 50: Do Working Conditions Matter?,2025,0
+10.18060/27061,ok,W4400770030,Mental Health Service Use Among Middle Eastern Migrant Women,2024,2
+10.1111/add.16293,ok,W4384664941,Association between job satisfaction and current smoking and change in smoking behavior: a 16‐year longitudinal study in South Korea,2023,6
+10.1016/j.tele.2023.101954,ok,W4320913750,The public perceptions of algorithmic decision-making systems: Results from a large-scale survey,2023,55
+10.2139/ssrn.5801424,ok,W4416630600,University as a Melting Pot: Long-term Effects of Internationalization,2025,1
+10.3758/s13428-023-02308-w,ok,W4390043383,Detecting non-content-based response styles in survey data: An application of mixture factor analysis,2023,17
+10.1177/08944393241254463,ok,W4396977434,Nonparticipation Bias in Accelerometer-Based Studies and the Use of Propensity Scores,2024,4
+10.2139/ssrn.4872886,ok,W4400190435,Are Gender Role Beliefs Entrenched? Empirical Evidence From the Netherlands During COVID-19,2024,0
+10.1111/pops.12904,ok,W4381511344,"How Prominent Cases of Sexual Harassment Influence Public Opinion Across Countries: The Cases of Cosby, Trump, and Weinstein",2023,3
+10.1111/gwao.12951,ok,W4312182144,The influence of the COVID‐19 pandemic on changes in perceived work pressure for Dutch mothers and fathers,2022,12
+10.1111/jomf.12950,ok,W4388935338,Extending theoretical explanations for gendered divisions of care during the COVID ‐19 pandemic,2023,13
+10.2139/ssrn.4373147,ok,W4390562062,The distributional effects of labour market deregulation: Wage share and fixed-term contracts,2024,8
+10.1093/humrep/deae108.823,ok,W4400308480,P-480 Demographic and family-based predictors of Dutch societal attitudes towards surrogacy,2024,1
+10.2139/ssrn.5586410,ok,W4415255919,How Corporate Exposure to Political Uncertainty Influences Supplier Credit?,2025,0
+10.1093/ej/ueae080,ok,W4402755340,Local exposure to refugees changed attitudes to ethnic minorities in the Netherlands,2024,27
+10.2139/ssrn.5146503,ok,W4407908774,"Protecting the Rights of Senior Citizens in India: A Critical Analysis of the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 and its Impact on Elderly Welfare",2025,1
+10.21125/edulearn.2024.1739,ok,W4400785899,RELATIONSHIPS BETWEEN PERSONALITY TRAITS OF UNIVERSITY STUDENTS AND SELF-ESTEEM,2024,0
+10.1080/13504851.2025.2610417,ok,W7117488997,Financial well-being and mental health: a reciprocal relationship?,2025,0
+10.1016/j.avb.2025.102106,ok,W4416091505,Estimating risk on filicide: A comparison of risk factors between fatal and non-fatal parental violence against children,2025,1
+10.1007/978-3-032-07005-0_4,ok,W4417187934,Ethical Implications in Building Longitudinal Data Infrastructures,2025,1
+10.1080/13645579.2025.2568497,ok,W4415148104,Can tailored recruitment messaging increase digital trace data donation compliance?,2025,2
+10.1086/739081,ok,W4415051760,Work Meaning and the Flexibility Puzzle,2025,1
+10.2196/69799,ok,W4414563662,"Data Donation as a Method to Measure Physical Activity in Older Adults: Cross-Sectional Web Survey Assessing Consent Rates, Donation Success, and Bias",2025,2
+10.1037/pspp0000573,ok,W4414341152,Changes in psychological well-being across the transition to motherhood: Combining longitudinal and experience sampling methods.,2025,3
+10.1017/gov.2025.10,ok,W4412777020,Losers’ Dissent: How Election Results Shape Populists’ Satisfaction with Democracy,2025,4
+10.1080/13229400.2025.2526468,ok,W4412678920,The gendered division of housework in times of Covid-19: the role of essential worker status and work location,2025,0
+10.21203/rs.3.rs-6999017/v1,ok,W4416848638,Physical sporting activity impact on long-term BMI trajectories in Dutch adults: a longitudinal observational study,2025,0
+10.1787/678055dd-en,ok,W4389496224,Pensions at a Glance 2023,2023,275
+10.1177/0143831X251345707,ok,W4411441860,The political lessons of precarious work: How profiles of perceived income inadequacy and job insecurity relate to union membership and political trust,2025,5
