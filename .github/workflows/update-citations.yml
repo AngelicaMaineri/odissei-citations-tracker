@@ -28,6 +28,7 @@ jobs:
           ZOTERO_LIBRARY_TYPE: ${{ vars.ZOTERO_LIBRARY_TYPE }}
           ZOTERO_COLLECTION_KEY: ${{ vars.ZOTERO_COLLECTION_KEY }}
       - run: python scripts/fetch_citations.py
+      - run: python scripts/build_dashboard_data.py
       - name: Save the results
         run: |
           git config user.name "github-actions[bot]"
