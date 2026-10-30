@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ODISSEi publications and citations</title>
+<title>ODISSEI publications and citations</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -309,7 +309,7 @@
         return { year: y, citations: perYear[y], cumulative: running };
       });
 
-      $("headline").textContent = `${plural(papers.length, "publication", "publications")} linked to ODISSEi ${papers.length === 1 ? "has" : "have"} been cited ${plural(total, "time", "times")}.`;
+      $("headline").textContent = `${plural(papers.length, "publication", "publications")} linked to ODISSEI ${papers.length === 1 ? "has" : "have"} been cited ${plural(total, "time", "times")}.`;
       let lede = `${fmt.format(perYear[year] || 0)} of those citations arrived in ${year}. `;
       if (notFound) lede += `${plural(notFound, "publication", "publications")} could not be found on OpenAlex and ${notFound === 1 ? "is" : "are"} not counted. `;
       lede += `Updated ${new Date(data.updated + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}.`;
@@ -389,7 +389,7 @@
     const host = location.hostname.match(/^([^.]+)\.github\.io$/);
     const repo = host && location.pathname.split("/").filter(Boolean)[0];
     const repoUrl = repo ? `https://github.com/${host[1]}/${repo}` : "";
-    let foot = "Publications come from the ODISSEi Zotero library. Citation counts come from OpenAlex and usually differ from Google Scholar or Scopus. A preprint and its published version count as one publication when OpenAlex links them.";
+    let foot = "Publications come from the ODISSEI Zotero library. Citation counts come from OpenAlex and usually differ from Google Scholar or Scopus. A preprint and its published version count as one publication when OpenAlex links them.";
     if (data.items_without_doi) foot += ` ${plural(data.items_without_doi, "Zotero item has", "Zotero items have")} no DOI and ${data.items_without_doi === 1 ? "is" : "are"} not included.`;
     if (repoUrl) foot += ` Data and code: <a href="${repoUrl}">${esc(host[1])}/${esc(repo)}</a>.`;
     $("footer").innerHTML = foot;
