@@ -1,4 +1,4 @@
-"""Read the ODISSEi papers from Zotero and write their DOIs to data/dois.txt.
+"""Read the ODISSEI papers from Zotero and write their DOIs to data/dois.txt.
 
 Run from the top folder of the repository: python scripts/fetch_zotero.py
 
