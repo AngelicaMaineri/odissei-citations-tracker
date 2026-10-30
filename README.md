@@ -1,6 +1,6 @@
-# ODISSEi citations tracker (PROTOTYPE)
+# ODISSEI citations tracker (PROTOTYPE)
 
-This repository tracks publications linked to [ODISSEi](https://odissei-data.nl) and the citations they receive. It reads the list of publications from the ODISSEi Zotero group library, looks up their citation counts on [OpenAlex](https://openalex.org), and publishes the results as a dashboard:
+This repository tracks publications linked to [ODISSEI](https://odissei-data.nl) and the citations they receive. It reads the list of publications from the ODISSEI Zotero group library, looks up their citation counts on [OpenAlex](https://openalex.org), and publishes the results as a dashboard:
 
 **Dashboard: https://angelicamaineri.github.io/odissei-citations-tracker/**
 
@@ -76,8 +76,8 @@ Under *Settings → Secrets and variables → Actions*:
 
 | Kind | Name | Value |
 |---|---|---|
-| Secret | `ZOTERO_API_KEY` | A Zotero API key with read-only access to the ODISSEi group |
-| Variable | `ZOTERO_LIBRARY_ID` | `4530732`, the ODISSEi group library |
+| Secret | `ZOTERO_API_KEY` | A Zotero API key with read-only access to the ODISSEI group |
+| Variable | `ZOTERO_LIBRARY_ID` | `4530732`, the ODISSEI group library |
 | Variable | `ZOTERO_LIBRARY_TYPE` | `group` |
 | Variable | `ZOTERO_COLLECTION_KEY` | The key of the tracked Zotero folder, currently `QBDS8NIB`. Its subfolders are included. |
 
@@ -87,7 +87,7 @@ Under *Settings → Pages*, *Source* is set to **GitHub Actions**.
 
 ### Zotero API key
 
-Create keys at [zotero.org/settings/keys](https://www.zotero.org/settings/keys). The key needs read-only access to the ODISSEi group. Under *Default Group Permissions*, choose *Read Only*, or give the group read access specifically. If the key is replaced, update the `ZOTERO_API_KEY` secret.
+Create keys at [zotero.org/settings/keys](https://www.zotero.org/settings/keys). The key needs read-only access to the ODISSEI group. Under *Default Group Permissions*, choose *Read Only*, or give the group read access specifically. If the key is replaced, update the `ZOTERO_API_KEY` secret.
 
 ### Changing the tracked Zotero folder
 
