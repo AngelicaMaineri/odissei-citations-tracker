@@ -18,6 +18,7 @@ doi,status,openalex_id,title,year,cited_by_count
 10.5281/ZENODO.15261773,ok,W6911944104,Comparing FAIR Assessment Tools and their Alignment with FAIR Implementation Profiles using Digital Humanities Datasets,2025,0
 10.5281/zenodo.15528339,ok,W6931157624,SSHOC-NL Socio-Economic History Community FAIR Implementation Report,2025,0
 10.48550/arXiv.2504.05976,ok,W4411116625,A Knowledge Base for Arts and Inclusion - The Dataverse Data Archival Platform as a Knowledge Base Management System Enabling Multimodal Accessibility,2025,0
+10.21203/rs.3.rs-11231888/v1,ok,W7223679259,"Building a reusable benchmark for life-outcome prediction: design, modelling approaches, predictors, and reproducibility of the PreFer data challenge",2026,0
 10.1017/thg.2026.10094,ok,W7214933576,Population-Level Data Linkages in Worldwide Twin Research Resources,2026,0
 10.1016/j.ssaho.2026.103569,ok,W4408224091,Public responses to jihadist terrorism on social media,2026,0
 10.21203/rs.3.rs-10509723/v1,ok,W7171714705,Metadata-Based Methods to Generate Synthetic Health Data: A Scoping Review,2026,0
@@ -76,7 +77,7 @@ doi,status,openalex_id,title,year,cited_by_count
 10.1038/s41598-023-28597-x,ok,W4318353732,Realtime user ratings as a strategy for combatting misinformation: an experimental study,2023,7
 10.1057/s41269-022-00270-7,ok,W4309944577,Still going strong? The role of traditional media in the 2021 Dutch parliamentary elections,2022,6
 10.1093/esr/jcac054,ok,W4309905170,Are classrooms equalizers or amplifiers of inequality? A genetically informative investigation of educational performance,2022,9
-10.1038/s41467-022-32003-x,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,94
+10.1038/s41467-022-32003-x,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,96
 10.1001/jamapsychiatry.2018.1581,ok,W2810905585,Association Between Population Density and Genetic Risk for Schizophrenia,2018,124
 10.1093/esr/jcac026,ok,W4293052867,A Whole Population Network and Its Application for the Social Sciences,2022,41
 10.21203/rs.3.rs-1967510/v1,ok,W4318353732,Realtime user ratings as a strategy for combatting misinformation: an experimental study,2023,7
@@ -132,8 +133,8 @@ doi,status,openalex_id,title,year,cited_by_count
 10.1080/13229400.2023.2181849,ok,W4322100945,Fathers stepping up? A cross-national comparison of fathers’ domestic labour and parents’ satisfaction with the division of domestic labour during the COVID-19 pandemic,2023,51
 10.1177/09589287221080411,ok,W4220976477,Unequal but balanced: Highly educated mothers’ perceptions of work–life balance during the COVID-19 lockdown in Finland and the Netherlands,2022,26
 10.1371/journal.pone.0242249,ok,W3108244190,"‘Intelligent’ lockdown, intelligent effects? Results from a survey on gender (in)equality in paid work, the division of childcare and household work, and quality of life among parents in the Netherlands during the Covid-19 lockdown",2020,218
-10.1016/j.jval.2021.09.004,ok,W3206074437,Do People Favor Artificial Intelligence Over Physicians? A Survey Among the General Population and Their View on Artificial Intelligence in Medicine,2021,103
-10.1002/jts5.78,ok,W3163791243,Longing for the “good old days” of our country: National nostalgia as a new master‐frame of populist radical right parties,2021,79
+10.1016/j.jval.2021.09.004,ok,W3206074437,Do People Favor Artificial Intelligence Over Physicians? A Survey Among the General Population and Their View on Artificial Intelligence in Medicine,2021,105
+10.1002/jts5.78,ok,W3163791243,Longing for the “good old days” of our country: National nostalgia as a new master‐frame of populist radical right parties,2021,80
 10.1111/bjso.12567,ok,W4291124612,Collective nostalgia: Triggers and consequences for collective action intentions,2022,46
 10.1007/s10433-022-00713-2,ok,W4283270538,Testing the informal care model: intrapersonal change in care provision intensity during the first lockdown of the COVID-19 pandemic,2022,13
 10.1016/j.jacr.2020.09.042,ok,W3093064335,Artificial Intelligence in Screening Mammography: A Population Survey of Women’s Preferences,2020,105
@@ -170,7 +171,7 @@ doi,status,openalex_id,title,year,cited_by_count
 10.1371/journal.pone.0261078,ok,W4200566895,Physical and psychological health at adolescence and home care use later in life,2021,1
 10.31235/osf.io/twjaq,ok,W4382195745,"Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood",2023,17
 10.1016/j.envint.2020.105982,ok,W3044331238,Greenery exposure and suicide mortality later in life: A longitudinal register-based case-control study,2020,48
-10.1016/j.envres.2020.110591,ok,W3113952926,Objective environmental exposures correlate differently with recreational and transportation walking: A cross-sectional national study in the Netherlands,2020,51
+10.1016/j.envres.2020.110591,ok,W3113952926,Objective environmental exposures correlate differently with recreational and transportation walking: A cross-sectional national study in the Netherlands,2020,52
 10.1016/j.regsciurbeco.2021.103719,ok,W3123326008,Sorting based on urban heritage and income: Evidence from the Amsterdam metropolitan area,2021,6
 10.1002/hec.4126,ok,W3040917377,Eligibility or use? Disentangling the sources of horizontal inequity in home care receipt in the Netherlands,2020,22
 10.1016/j.envint.2021.106635,ok,W3165397993,Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study,2021,86
@@ -179,9 +180,9 @@ doi,status,openalex_id,title,year,cited_by_count
 10.1016/j.landurbplan.2021.104181,ok,W3182904300,Can’t see the wood for the trees? An assessment of street view- and satellite-derived greenness measures in relation to mental health,2021,121
 10.1016/j.scitotenv.2022.157329,ok,W4285400580,Living near coasts is associated with higher suicide rates among females but not males: A register-based linkage study in the Netherlands,2022,18
 10.1016/j.scitotenv.2020.140914,ok,W3043441880,"Outdoor light at night, air pollution and depressive symptoms: A cross-sectional study in the Netherlands",2020,101
-10.1016/j.healthplace.2021.102543,ok,W3135763198,Longitudinal exposure assessments of neighbourhood effects in health research: What can be learned from people's residential histories?,2021,17
+10.1016/j.healthplace.2021.102543,ok,W3135763198,Longitudinal exposure assessments of neighbourhood effects in health research: What can be learned from people's residential histories?,2021,18
 10.1016/j.jebo.2022.08.028,ok,W4295872822,Estimating the health value added by nursing homes,2022,11
 10.1177/17461979221084109,ok,W4294605519,Are schools’ qualification and civic outcomes related? The role of schools’ student composition and tracking,2022,6
 10.2139/ssrn.3735777,ok,W3169170929,The Global Financial Crisis and Employee Mental Health,2021,0
 10.2139/ssrn.3772659,ok,W3123251556,Corporate Financial Frictions and Employee Mental Health,2023,5
-10.1101/2020.09.15.296236,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,94
+10.1101/2020.09.15.296236,ok,W4292836782,Estimating effects of parents’ cognitive and non-cognitive skills on offspring education using polygenic scores,2022,96
